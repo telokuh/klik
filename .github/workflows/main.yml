@@ -8,7 +8,7 @@ on:
       apk_path:
         description: 'Jalur ke file APK yang akan didekompilasi (Contoh: build/app.apk)'
         required: true
-        default: 'app.apk' # Ganti default jika perlu
+        default: 'b-debug.apk' # Ganti default jika perlu
 
 jobs:
   decompile_and_commit:
@@ -47,12 +47,16 @@ jobs:
       - name: Install JADX
         # Mengunduh dan menyiapkan Jadx biner
         run: |
-          JADX_VERSION="1.4.7" # Sesuaikan versi jika perlu
+          JADX_VERSION="1.4.7" 
           JADX_ZIP="jadx-$JADX_VERSION.zip"
           JADX_URL="https://github.com/skylot/jadx/releases/download/v$JADX_VERSION/$JADX_ZIP"
           
+          echo "Mengunduh Jadx versi $JADX_VERSION..."
           wget $JADX_URL -O $JADX_ZIP
-          unzip $JADX_ZIP
+          
+          echo "Mengekstrak Jadx..."
+          # Revisi: Tambahkan opsi -o (overwrite) agar non-interaktif
+          unzip -o $JADX_ZIP
           
           echo "Jadx berhasil diinstal."
 
