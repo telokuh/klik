@@ -50,7 +50,7 @@ jobs:
       - name: Install JADX
         # Mengunduh dan menyiapkan Jadx biner
         run: |
-          JADX_VERSION="1.4.7" # Sesuaikan versi jika perlu
+          JADX_VERSION="1.4.7" 
           JADX_ZIP="jadx-$JADX_VERSION.zip"
           JADX_URL="https://github.com/skylot/jadx/releases/download/v$JADX_VERSION/$JADX_ZIP"
           
@@ -58,17 +58,21 @@ jobs:
           wget $JADX_URL -O $JADX_ZIP
           
           echo "Mengekstrak Jadx (non-interaktif)..."
-          # PERBAIKAN 1: Menambahkan opsi -o (overwrite) untuk non-interaktif
           unzip -o $JADX_ZIP
           
-          # PERBAIKAN 2: Menambahkan izin eksekusi ke biner Jadx untuk menghindari Exit Code 127
+          # LILIN DEBUG: Tampilkan semua file hasil ekstraksi
+          echo "--- Struktur folder setelah unzip ---"
+          ls -R
+          echo "-----------------------------------"
+          
+          # Asumsi Jalur Biner Jadx (yang mungkin salah)
           JADX_BIN_PATH="jadx-$JADX_VERSION/bin/jadx"
+          
+          # PERIKSA: Kita akan mencoba chmod, tapi jika gagal, kita akan tahu mengapa.
+          echo "Mencoba memberikan izin eksekusi ke $JADX_BIN_PATH"
           chmod +x $JADX_BIN_PATH
           
-          echo "Verifikasi file biner Jadx dan izinnya:"
-          ls -l $JADX_BIN_PATH
-          
-          echo "Jadx berhasil diinstal dan diatur izinnya."
+          echo "Jadx berhasil diinstal."
 
       - name: Run Decompilation with JADX
         run: |
