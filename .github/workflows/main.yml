@@ -7,7 +7,7 @@ on:
       apk_path:
         description: 'Jalur ke file APK yang akan didekompilasi (Contoh: build/app.apk)'
         required: true
-        default: 'app.apk' # Ganti default jika perlu
+        default: 'b-debug.apk' # Ganti default jika perlu
 
 jobs:
   decompile_and_commit:
