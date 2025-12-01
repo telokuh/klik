@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20sp" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:text="Auto Kliker: Izin Aksesibilitas dan Overlay Diperlukan" android:textAlignment="center"/>
+    <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="1. Aktifkan &apos;Auto Klik Sederhana&apos; di Pengaturan Aksesibilitas."/>
+    <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:text="2. Berikan izin &apos;Menggambar di atas aplikasi lain&apos; (Overlay)."/>
+    <TextView android:textSize="16sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Setelah itu, tombol mengambang akan muncul. Anda bisa menutup aplikasi ini." android:textAlignment="center"/>
+</LinearLayout>
