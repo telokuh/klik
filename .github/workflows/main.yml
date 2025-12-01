@@ -1,94 +1,88 @@
-name: Decompile APK and Commit to Repo
+name: Decompile APK from URL and Commit
 # Workflow ini hanya berjalan saat dipicu secara manual
 
 on:
   workflow_dispatch:
     inputs:
-      apk_path:
-        description: 'Jalur ke file APK yang akan didekompilasi (Contoh: build/app.apk)'
+      apk_url:
+        description: 'URL ke file APK yang akan didekompilasi (Contoh: https://github.com/telokuh/klik/releases/download/1/app.apk)'
         required: true
-        default: 'b-debug.apk' # Ganti default jika perlu
+        default: 'https://github.com/telokuh/klik/releases/download/1/app.apk' # URL default Anda
+      apk_filename:
+        description: 'Nama file lokal untuk APK yang diunduh'
+        required: true
+        default: 'downloaded_app.apk'
 
 jobs:
   decompile_and_commit:
     runs-on: ubuntu-latest
     
-    # Memberikan izin tulis (write) pada token GITHUB_TOKEN untuk melakukan push
+    # Memberikan izin tulis (write) untuk melakukan push
     permissions:
       contents: write 
 
     steps:
       - name: Checkout Code
-        # Mengambil kode dari repo
         uses: actions/checkout@v4
         with:
-          # Penting: Menggunakan token untuk otentikasi agar bisa push kembali
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set APK Path Variable
-        # Mendapatkan jalur APK dari input manual
-        id: apk_path
+      - name: Download APK from URL
+        # Langkah baru untuk mengunduh APK menggunakan wget
+        id: download
         run: |
-          APK_FILE=${{ github.event.inputs.apk_path || 'app.apk' }}
-          echo "APK_FILE=$APK_FILE" >> $GITHUB_OUTPUT
+          APK_URL=${{ github.event.inputs.apk_url }}
+          APK_FILENAME=${{ github.event.inputs.apk_filename }}
           
-      - name: Check if APK file exists
-        # Memastikan file APK ada sebelum memulai proses
-        run: |
-          if [ ! -f ${{ steps.apk_path.outputs.APK_FILE }} ]; then
-            echo "Error: File APK tidak ditemukan di ${{ steps.apk_path.outputs.APK_FILE }}. Mohon periksa path yang Anda masukkan saat memicu workflow."
+          echo "Mengunduh APK dari: $APK_URL"
+          # Menggunakan -O (output file) untuk menyimpan dengan nama yang ditentukan
+          wget -O "$APK_FILENAME" "$APK_URL"
+          
+          # Cek apakah unduhan berhasil
+          if [ $? -ne 0 ]; then
+            echo "Error: Gagal mengunduh file APK dari URL yang diberikan."
             exit 1
           fi
-
+          
+          # Menyimpan nama file lokal sebagai output untuk langkah selanjutnya
+          echo "APK_FILE=$APK_FILENAME" >> $GITHUB_OUTPUT
+          
       - name: Set up Java
-        # Jadx membutuhkan Java (minimal versi 8)
+        # Jadx membutuhkan Java
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '11'
 
-      - name: Install JADX
-        # Mengunduh dan menyiapkan Jadx biner
+      - name: Install JADX and Set Permissions
+        # Mengunduh, mengekstrak, dan mengatur izin Jadx
         run: |
-          JADX_VERSION="1.4.7" 
+          JADX_VERSION="1.4.7"
           JADX_ZIP="jadx-$JADX_VERSION.zip"
           JADX_URL="https://github.com/skylot/jadx/releases/download/v$JADX_VERSION/$JADX_ZIP"
           
-          echo "Mengunduh Jadx versi $JADX_VERSION..."
           wget $JADX_URL -O $JADX_ZIP
-          
-          echo "Mengekstrak Jadx (non-interaktif)..."
+          # Mengatasi masalah unzip interaktif
           unzip -o $JADX_ZIP
           
-          # LILIN DEBUG: Tampilkan semua file hasil ekstraksi
-          echo "--- Struktur folder setelah unzip ---"
-          ls -R
-          echo "-----------------------------------"
-          
-          # Asumsi Jalur Biner Jadx (yang mungkin salah)
+          # Mengatasi masalah 'No such file or directory' (exit code 127/1) dengan jalur yang benar
           JADX_BIN_PATH="./bin/jadx"
-          
-          # PERIKSA: Kita akan mencoba chmod, tapi jika gagal, kita akan tahu mengapa.
-          echo "Mencoba memberikan izin eksekusi ke $JADX_BIN_PATH"
           chmod +x $JADX_BIN_PATH
           
-          echo "Jadx berhasil diinstal."
+          echo "Jadx berhasil disiapkan."
 
       - name: Run Decompilation with JADX
         run: |
-          JADX_VERSION="1.4.7"
-          APK_FILE=${{ steps.apk_path.outputs.APK_FILE }}
-          # Menentukan folder output seperti yang Anda minta
+          # Mengambil nama file APK dari langkah Download
+          APK_FILE=${{ steps.download.outputs.APK_FILE }} 
           OUTPUT_DIR="app/decompiled_source" 
           JADX_BIN_PATH="./bin/jadx"
           
-          # Membersihkan folder lama dan membuat yang baru
           rm -rf $OUTPUT_DIR
           mkdir -p $OUTPUT_DIR
           
           echo "Memulai dekompilasi $APK_FILE ke $OUTPUT_DIR..."
           
-          # Eksekusi Jadx
           $JADX_BIN_PATH -d "$OUTPUT_DIR" --show-bad-code "$APK_FILE"
           
           if [ $? -eq 0 ]; then
@@ -102,9 +96,8 @@ jobs:
         # Menggunakan action untuk mengotomatisasi commit dan push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          # Membatasi commit hanya pada file yang ada di dalam folder 'app/'
           file_pattern: 'app/**' 
-          commit_message: 'Automated: Decompiled APK source code updated in app/decompiled_source'
+          commit_message: 'Automated: Decompiled APK source code updated from URL'
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
