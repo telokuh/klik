@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="CreatedbyRmt_res_0x7f030000">
+        <item>Тағы %d мекенжай</item>
+        <item>Тағы %d мекенжай</item>
+        <item>Тағы %d мекенжай</item>
+    </array>
+    <array name="CreatedbyRmt_res_0x7f030002">
+        <item>Қаң</item>
+        <item>Ақп</item>
+        <item>Нау</item>
+        <item>Сәу</item>
+        <item>Мам</item>
+        <item>Мау</item>
+        <item>Шіл</item>
+        <item>Там</item>
+        <item>Қыр</item>
+        <item>Қаз</item>
+        <item>Қар</item>
+        <item>Жел</item>
+    </array>
+</resources>

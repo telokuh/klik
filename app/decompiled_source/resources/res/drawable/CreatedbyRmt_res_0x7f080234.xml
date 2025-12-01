@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/CreatedbyRmt_res_0x7f08023f">
+    <target android:name="@string/CreatedbyRmt_res_0x7f1403ac" android:animation="@drawable/CreatedbyRmt_res_0x7f080010"/>
+    <target android:name="@string/CreatedbyRmt_res_0x7f1403ac" android:animation="@drawable/CreatedbyRmt_res_0x7f080011"/>
+    <target android:name="@string/CreatedbyRmt_res_0x7f1403ae" android:animation="@drawable/CreatedbyRmt_res_0x7f080012"/>
+</animated-vector>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="CreatedbyRmt_res_0x7f030000">
+        <item>Adicionar %d endereço</item>
+        <item>Adicionar %d endereços</item>
+        <item>Adicionar %d endereços</item>
+    </array>
+    <array name="CreatedbyRmt_res_0x7f030002">
+        <item>Jan.</item>
+        <item>Fev.</item>
+        <item>Mar.</item>
+        <item>Abr.</item>
+        <item>Maio</item>
+        <item>Jun.</item>
+        <item>Jul.</item>
+        <item>Ago.</item>
+        <item>Set.</item>
+        <item>Out.</item>
+        <item>Nov.</item>
+        <item>Dez.</item>
+    </array>
+</resources>

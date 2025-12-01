@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CreatedbyRmt_res_0x7f14024f">Contraer la hoja inferior</string>
+    <string name="CreatedbyRmt_res_0x7f140250">Expandir la hoja inferior</string>
+    <string name="CreatedbyRmt_res_0x7f140251">Expandir hasta la mitad</string>
+    <string name="CreatedbyRmt_res_0x7f140252">El control de arrastre se presionó dos veces</string>
+    <string name="CreatedbyRmt_res_0x7f140253">Controlador de arrastre</string>
+    <string name="CreatedbyRmt_res_0x7f140274">Caracteres ingresados: %1$d de %2$d</string>
+    <string name="CreatedbyRmt_res_0x7f140275">Se excedió en %1$d el límite de caracteres de %2$d</string>
+    <string name="CreatedbyRmt_res_0x7f14027f">Borrar texto</string>
+    <string name="CreatedbyRmt_res_0x7f1402e7">Error: No válido</string>
+    <string name="CreatedbyRmt_res_0x7f1402e8">Error</string>
+    <string name="CreatedbyRmt_res_0x7f1402eb">Mostrar menú desplegable</string>
+    <string name="CreatedbyRmt_res_0x7f140331">Ícono de diálogo</string>
+    <string name="CreatedbyRmt_res_0x7f14033d">Pestaña</string>
+    <string name="CreatedbyRmt_res_0x7f140382">Selecciona a.m. o p.m.</string>
+    <string name="CreatedbyRmt_res_0x7f140390">a.m.</string>
+    <string name="CreatedbyRmt_res_0x7f140394">p.m.</string>
+    <string name="CreatedbyRmt_res_0x7f1403aa">Notificación nueva</string>
+    <string name="CreatedbyRmt_res_0x7f1403b3">Marcada</string>
+    <string name="CreatedbyRmt_res_0x7f1403b4">Verificado parcialmente</string>
+    <string name="CreatedbyRmt_res_0x7f1403b5">Sin marcar</string>
+    <string name="CreatedbyRmt_res_0x7f1403b6">Quitar %1$s</string>
+    <string name="CreatedbyRmt_res_0x7f1403b7">Más de %1$d notificaciones nuevas</string>
+    <string name="CreatedbyRmt_res_0x7f1403b9">Cambiar al mes siguiente</string>
+    <string name="CreatedbyRmt_res_0x7f1403ba">Cambiar al mes anterior</string>
+    <string name="CreatedbyRmt_res_0x7f1403be">Cancelar</string>
+    <string name="CreatedbyRmt_res_0x7f1403bf">Aceptar</string>
+    <string name="CreatedbyRmt_res_0x7f1403c3">%1$s</string>
+    <string name="CreatedbyRmt_res_0x7f1403c4">Fecha de finalización: %1$s</string>
+    <string name="CreatedbyRmt_res_0x7f1403c9">Navegar al año actual (%1$d)</string>
+    <string name="CreatedbyRmt_res_0x7f1403ca">Navegar al año %1$d</string>
+    <string name="CreatedbyRmt_res_0x7f1403d1">Guardar</string>
+    <string name="CreatedbyRmt_res_0x7f1403d2">Fecha de inicio: %1$s</string>
+    <string name="CreatedbyRmt_res_0x7f1403d9">Hoy, %1$s</string>
+    <string name="CreatedbyRmt_res_0x7f1403da">Cambiar al modo de entrada de calendario</string>
+    <string name="CreatedbyRmt_res_0x7f1403db">Presiona para cambiar a la vista de Calendario</string>
+    <string name="CreatedbyRmt_res_0x7f1403dc">Cambiar al modo de entrada de texto</string>
+    <string name="CreatedbyRmt_res_0x7f1403dd">Presiona para cambiar a la vista de año</string>
+    <string name="CreatedbyRmt_res_0x7f140409">Mostrar contraseña</string>
+    <string name="CreatedbyRmt_res_0x7f140450">Borrar texto</string>
+    <string name="CreatedbyRmt_res_0x7f140451">Atrás</string>
+    <string name="CreatedbyRmt_res_0x7f1404d9">Hoja lateral</string>
+</resources>

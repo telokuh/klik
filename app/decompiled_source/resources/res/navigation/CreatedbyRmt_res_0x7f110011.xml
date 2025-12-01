@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a03af" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a028e">
+    <fragment android:label="fragment_menu" android:name="com.feature.menu.MenuFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a028e">
+        <argument android:name="group_code" app:argType="string" app:nullable="true"/>
+        <argument android:name="group_name" app:argType="string" app:nullable="true"/>
+    </fragment>
+</navigation>

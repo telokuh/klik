@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_checked="true" android:id="@+id/CreatedbyRmt_res_0x7f0a01a8" android:drawable="@drawable/CreatedbyRmt_res_0x7f080240"/>
+    <item android:id="@+id/CreatedbyRmt_res_0x7f0a02e1" android:drawable="@drawable/CreatedbyRmt_res_0x7f080240" app:state_indeterminate="true"/>
+    <item android:state_checked="false" android:id="@+id/CreatedbyRmt_res_0x7f0a06b2" android:drawable="@drawable/CreatedbyRmt_res_0x7f080241"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f080231" android:toId="@+id/CreatedbyRmt_res_0x7f0a06b2" android:fromId="@+id/CreatedbyRmt_res_0x7f0a01a8"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f080239" android:toId="@+id/CreatedbyRmt_res_0x7f0a01a8" android:fromId="@+id/CreatedbyRmt_res_0x7f0a06b2"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f080231" android:toId="@+id/CreatedbyRmt_res_0x7f0a06b2" android:fromId="@+id/CreatedbyRmt_res_0x7f0a02e1"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f080239" android:toId="@+id/CreatedbyRmt_res_0x7f0a02e1" android:fromId="@+id/CreatedbyRmt_res_0x7f0a06b2"/>
+</animated-selector>

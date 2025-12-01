@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a00a8" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a01c9">
+    <fragment android:name="com.feature.commission.info.CommissionListFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a01c9">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a006d" app:destination="@+id/CreatedbyRmt_res_0x7f0a019d"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a006e" app:destination="@+id/CreatedbyRmt_res_0x7f0a019f"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a006c" app:destination="@+id/CreatedbyRmt_res_0x7f0a01c3"/>
+    </fragment>
+    <dialog android:name="com.feature.commission.info.ChangeDriverAutoFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a019d"/>
+    <dialog android:name="com.feature.commission.info.ChangeTariffFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a019f"/>
+    <fragment android:name="com.feature.commission.calculator.CommissionCalculatorFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a01c3">
+        <argument android:name="autoId" app:argType="integer"/>
+        <argument android:name="tariffId" app:argType="integer"/>
+        <argument android:name="autoName" app:argType="string"/>
+        <argument android:name="tariffName" app:argType="string"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0048" app:destination="@+id/CreatedbyRmt_res_0x7f0a01c7"/>
+    </fragment>
+    <fragment android:name="com.feature.commission.calculator.CommissionInfoFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a01c7">
+        <argument android:name="autoId" app:argType="integer"/>
+        <argument android:name="commissionAuto" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="commissionList" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="addedKeys" app:argType="string[]"/>
+    </fragment>
+</navigation>

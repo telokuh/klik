@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="CreatedbyRmt_res_0x7f030000">
+        <item>%d மேலதிக முகவரி</item>
+        <item>%d மேலதிக முகவரிகள்</item>
+        <item>%d மேலதிக முகவரிகள்</item>
+    </array>
+    <array name="CreatedbyRmt_res_0x7f030002">
+        <item>ஜன</item>
+        <item>பிப்</item>
+        <item>மார்</item>
+        <item>ஏப்</item>
+        <item>மே</item>
+        <item>மே</item>
+        <item>ஜூலை</item>
+        <item>ஆக</item>
+        <item>சென்</item>
+        <item>அக்</item>
+        <item>நவம்பர்</item>
+        <item>டிச</item>
+    </array>
+</resources>

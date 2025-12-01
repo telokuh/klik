@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a00ae" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a057f">
+    <fragment android:name="com.taxsee.feature.system_problems.problems_list.ui.SystemProblemListFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a057f">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a005e" app:destination="@+id/CreatedbyRmt_res_0x7f0a057e"/>
+    </fragment>
+    <fragment android:name="com.taxsee.feature.system_problems.problem_detail.ui.SystemProblemDetailsFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a057e">
+        <argument android:name="code" app:argType="string"/>
+    </fragment>
+</navigation>

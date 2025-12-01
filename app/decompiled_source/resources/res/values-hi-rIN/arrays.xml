@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="CreatedbyRmt_res_0x7f030000">
+        <item>%d और पता</item>
+        <item>%d और पते</item>
+        <item>%d और पते</item>
+    </array>
+    <array name="CreatedbyRmt_res_0x7f030002">
+        <item>जन</item>
+        <item>फरव</item>
+        <item>मार्च</item>
+        <item>अप्रैल</item>
+        <item>मई</item>
+        <item>जून</item>
+        <item>जुल</item>
+        <item>अग</item>
+        <item>सित</item>
+        <item>अक्टू</item>
+        <item>नव</item>
+        <item>दिस</item>
+    </array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a01a3" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a01a2">
+    <fragment android:name="com.feature.chat_list.channel.ChannelListFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a01a2">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a005d" app:destination="@+id/CreatedbyRmt_res_0x7f0a01a4"/>
+    </fragment>
+    <fragment android:name="com.feature.chat_list.chat.ChatFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a01a4">
+        <argument android:name="id" app:argType="string"/>
+        <argument android:name="name" app:argType="string"/>
+        <argument android:name="limit_messages" app:argType="integer"/>
+        <argument android:name="allow_send_location" app:argType="boolean"/>
+        <argument android:name="is_chat_with_client" app:argType="boolean"/>
+    </fragment>
+</navigation>

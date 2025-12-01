@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">El código es incorrecto. Queda %d intento de introducción.</item>
+        <item quantity="other">El código es incorrecto. Quedan %d intentos de introducción.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">Queda %d intento de introducción.</item>
+        <item quantity="other">Quedan %d intentos de introducción.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">El pedido será cancelado dentro de %1$s segundo</item>
+        <item quantity="other">El pedido será cancelado dentro de %1$s segundos</item>
+    </plurals>
+</resources>

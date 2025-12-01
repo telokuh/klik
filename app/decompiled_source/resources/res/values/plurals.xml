@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">Код неверный. Осталась %d попытка ввода.</item>
+        <item quantity="two">Код неверный. Осталось %d попытки ввода.</item>
+        <item quantity="few">Код неверный. Осталось %d попытки ввода.</item>
+        <item quantity="many">Код неверный. Осталось %d попыток ввода.</item>
+        <item quantity="other">Код неверный. Осталось %d попыток ввода.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">Осталась %d попытка ввода.</item>
+        <item quantity="two">Осталось %d попытки ввода.</item>
+        <item quantity="few">Осталось %d попытки ввода.</item>
+        <item quantity="many">Осталось %d попыток ввода.</item>
+        <item quantity="other">Осталось %d попыток ввода.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120002">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">Заказ будет отменен через %1$s секунду</item>
+        <item quantity="two">Заказ будет отменен через %1$s секунды</item>
+        <item quantity="few">Заказ будет отменен через %1$s секунды</item>
+        <item quantity="other">Заказ будет отменен через %1$s секунд</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120002">
+        <item quantity="one">အကြောင်းကြားချက်အသစ် %d ခု</item>
+        <item quantity="other">အကြောင်းကြားချက်အသစ် %d ခု</item>
+    </plurals>
+</resources>

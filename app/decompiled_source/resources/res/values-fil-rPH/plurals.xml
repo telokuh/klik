@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">Mali ang code. May %d pang pagtatangka para ipasok.</item>
+        <item quantity="other">Mali ang code. May %d pang pagtatangka para ipasok.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">May %d pang pagtatangka para ipasok.</item>
+        <item quantity="other">May %d pang pagtatangka para ipasok.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">Makakansela ang order pagkatapos ng %1$s segundo</item>
+        <item quantity="other">Makakansela ang order pagkatapos ng %1$s segundo</item>
+    </plurals>
+</resources>

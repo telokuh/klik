@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="CreatedbyRmt_res_0x7f030000">
+        <item>عنوان %d آخر</item>
+        <item>عناوين %d أخرى</item>
+        <item>عناوين %d أخرى</item>
+    </array>
+    <array name="CreatedbyRmt_res_0x7f030002">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </array>
+</resources>

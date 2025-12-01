@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">Կոդը սխալ է։ Մնաց մուտքի %d փորձ։</item>
+        <item quantity="other">Կոդը սխալ է։ Մնաց մուտքի %d փորձ։</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">Մնաց մուտքի %d փորձ։</item>
+        <item quantity="other">Մնաց մուտքի %d փորձ։</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">Պատվերը կչեղարկվի %1$s վայրկյանից</item>
+        <item quantity="other">Պատվերը կչեղարկվի %1$s վայրկյանից</item>
+    </plurals>
+</resources>

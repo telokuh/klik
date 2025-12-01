@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">Kod yanlış. Kalan giriş denemesi sayısı %d.</item>
+        <item quantity="other">Kod yanlış. Kalan giriş denemesi sayısı %d.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">Kalan giriş denemesi sayısı %d.</item>
+        <item quantity="other">Kalan giriş denemesi sayısı %d.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">%1$s saniye sonra talep iptal edilecek</item>
+        <item quantity="other">%1$s saniye sonra talep iptal edilecek</item>
+    </plurals>
+</resources>

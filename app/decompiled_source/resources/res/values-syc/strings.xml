@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CreatedbyRmt_res_0x7f1401b4">Доступна прежняя версия%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401b5">Прежняя версия%s готова к установке</string>
+    <string name="CreatedbyRmt_res_0x7f1401b6">Загруженный файл испорчен</string>
+    <string name="CreatedbyRmt_res_0x7f1401b7">Загружается прежняя версия%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401b8">Загружается обновление%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401b9">Не удалось загрузить прежнюю версию%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401ba">Не удалось загрузить обновление%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401bb">Не удалось продолжить загрузку прежней версии%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401bc">Не удалось продолжить загрузку обновления%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401bd">Недостаточно места для загрузки прежней версии%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401be">Недостаточно места для загрузки обновления%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401c1">Загрузка прежней версии%s приостановлена</string>
+    <string name="CreatedbyRmt_res_0x7f1401c2">Загрузка обновления%s приостановлена</string>
+    <string name="CreatedbyRmt_res_0x7f1401c3">Доступно обновление%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401c4">Обновление%s готово к установке</string>
+</resources>

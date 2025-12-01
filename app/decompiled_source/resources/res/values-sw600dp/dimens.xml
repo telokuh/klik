@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="CreatedbyRmt_res_0x7f070000">24dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070001">80dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070002">64dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070003">8dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070004">8dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070017">580dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f07008c">320dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f07008f">0dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070091">2dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070093">24dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070094">576dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070095">320dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070098">@dimen/CreatedbyRmt_res_0x7f070097</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f07009b">160dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f0700a0">0.75</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f0700b9">550dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070293">64dp</dimen>
+    <dimen name="CreatedbyRmt_res_0x7f070340">64dp</dimen>
+</resources>

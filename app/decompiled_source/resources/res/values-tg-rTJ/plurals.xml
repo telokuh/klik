@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">Код нодуруст аст. %d кӯшиши ворид боқӣ монд.</item>
+        <item quantity="other">Код нодуруст аст. %d кӯшиши ворид боқӣ монд.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">%d кӯшиши ворид боқӣ монд.</item>
+        <item quantity="other">%d кӯшиши ворид боқӣ монд.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">Фармоиш баъд аз %1$s сония бекор карда мешавад</item>
+        <item quantity="other">Фармоиш баъд аз %1$s сония бекор карда мешавад</item>
+    </plurals>
+</resources>

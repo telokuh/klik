@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CreatedbyRmt_res_0x7f1500e0" parent="@style/CreatedbyRmt_res_0x7f1500e1">
+        <item name="CreatedbyRmt_res_0x7f040072">18.66dp</item>
+        <item name="CreatedbyRmt_res_0x7f0401b8">24dp</item>
+        <item name="CreatedbyRmt_res_0x7f040249">3.33dp</item>
+    </style>
+</resources>

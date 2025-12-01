@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:state_pressed="true" android:color="?attr/CreatedbyRmt_res_0x7f040128" android:alpha="@dimen/CreatedbyRmt_res_0x7f0701f7"/>
+    <item android:state_focused="true" android:state_selected="true" android:color="?attr/CreatedbyRmt_res_0x7f040123" android:alpha="@dimen/CreatedbyRmt_res_0x7f0701f4"/>
+    <item android:state_selected="true" android:color="?attr/CreatedbyRmt_res_0x7f040123" android:alpha="@dimen/CreatedbyRmt_res_0x7f0701f5" android:state_hovered="true"/>
+    <item android:state_selected="true" android:color="?attr/CreatedbyRmt_res_0x7f040123" android:alpha="@dimen/CreatedbyRmt_res_0x7f0701f3"/>
+    <item android:state_checkable="true" android:state_pressed="true" android:color="?attr/CreatedbyRmt_res_0x7f040123" android:alpha="@dimen/CreatedbyRmt_res_0x7f0701f7"/>
+    <item android:state_checkable="false" android:state_pressed="true" android:color="?attr/CreatedbyRmt_res_0x7f040128" android:alpha="@dimen/CreatedbyRmt_res_0x7f0701f6"/>
+    <item android:state_focused="true" android:color="?attr/CreatedbyRmt_res_0x7f040128" android:alpha="@dimen/CreatedbyRmt_res_0x7f0701f4"/>
+    <item android:color="?attr/CreatedbyRmt_res_0x7f040128" android:alpha="@dimen/CreatedbyRmt_res_0x7f0701f5" android:state_hovered="true"/>
+    <item android:color="?attr/CreatedbyRmt_res_0x7f040128" android:alpha="@dimen/CreatedbyRmt_res_0x7f0701f3"/>
+</selector>

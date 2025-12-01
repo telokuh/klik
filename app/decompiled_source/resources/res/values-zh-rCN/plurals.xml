@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="other">密码错误。还有%d次尝试机会。</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="other">还有%d尝试机会。</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120002">
+        <item quantity="one">%d 条新通知</item>
+        <item quantity="other">%d 条新通知</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="other">订单将在 %1$s 秒钟后取消</item>
+    </plurals>
+</resources>

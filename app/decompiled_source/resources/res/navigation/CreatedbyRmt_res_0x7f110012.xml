@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a040e" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a0461">
+    <dialog android:name="com.feature.navigator.PickAddressFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0461">
+        <argument android:name="orderId" app:argType="long"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0091" app:destination="@+id/CreatedbyRmt_res_0x7f0a0462" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a0461" app:popUpToInclusive="true"/>
+    </dialog>
+    <dialog android:name="com.feature.navigator.PickNavigatorFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0462">
+        <argument android:name="latitude" app:argType="float"/>
+        <argument android:name="longitude" app:argType="float"/>
+    </dialog>
+</navigation>

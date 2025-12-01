@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">குறியீடு தவறானது. இன்னும் %d உள்ளீடு முயற்சிகள் உள்ளன.</item>
+        <item quantity="other">குறியீடு தவறானது. இன்னும் %d உள்ளீடு முயற்சிகள் உள்ளன.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">இன்னும் %d உள்ளீடு முயற்சிகள் உள்ளன.</item>
+        <item quantity="other">இன்னும் %d உள்ளீடு முயற்சிகள் உள்ளன.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">The order will be canceled in %1$s second</item>
+        <item quantity="other">The order will be canceled in %1$s seconds</item>
+    </plurals>
+</resources>

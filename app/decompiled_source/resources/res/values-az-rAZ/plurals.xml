@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">Yanlış kod. Kodu daxil etmək üçün %d cəhd qalıb.</item>
+        <item quantity="other">Yanlış kod. Kodu daxil etmək üçün %d cəhd qalıb.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">Kodu daxil etmək üçün %d cəhd qalıb.</item>
+        <item quantity="other">Kodu daxil etmək üçün %d cəhd qalıb.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">Sifariş %1$s saniyədən sonra ləğv olunacaq</item>
+        <item quantity="other">Sifariş %1$s saniyədən sonra ləğv olunacaq</item>
+    </plurals>
+</resources>

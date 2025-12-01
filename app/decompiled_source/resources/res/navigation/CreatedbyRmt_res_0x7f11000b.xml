@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a00ad" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a0547">
+    <fragment android:name="com.feature.login.splash.SplashFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0547">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0086" app:destination="@+id/CreatedbyRmt_res_0x7f0a0243" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a0547" app:popUpToInclusive="true"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0087" app:destination="@+id/CreatedbyRmt_res_0x7f0a0245" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a0547" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:name="com.taxsee.screen.login.login_by_callsign.EnterCallsignFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0243">
+        <argument android:name="is_first_screen" android:defaultValue="true" app:argType="boolean"/>
+        <argument android:name="login_by_phone_enabled" app:argType="boolean"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0053" app:destination="@+id/CreatedbyRmt_res_0x7f0a0245" app:enterAnim="@animator/CreatedbyRmt_res_0x7f02002a" app:exitAnim="@animator/CreatedbyRmt_res_0x7f020029" app:popEnterAnim="@animator/CreatedbyRmt_res_0x7f02002b" app:popExitAnim="@animator/CreatedbyRmt_res_0x7f020028" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a0243" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:name="com.taxsee.screen.login.login_by_phone.enter_phone.EnterPhoneFragmentNew" android:id="@+id/CreatedbyRmt_res_0x7f0a0245">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0054" app:destination="@+id/CreatedbyRmt_res_0x7f0a0243" app:enterAnim="@animator/CreatedbyRmt_res_0x7f02002a" app:exitAnim="@animator/CreatedbyRmt_res_0x7f020029" app:popEnterAnim="@animator/CreatedbyRmt_res_0x7f02002b" app:popExitAnim="@animator/CreatedbyRmt_res_0x7f020028">
+            <argument android:name="is_first_screen" android:defaultValue="false" app:argType="boolean"/>
+        </action>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0055" app:destination="@+id/CreatedbyRmt_res_0x7f0a0244" app:enterAnim="@animator/CreatedbyRmt_res_0x7f02002a" app:exitAnim="@animator/CreatedbyRmt_res_0x7f020029" app:popEnterAnim="@animator/CreatedbyRmt_res_0x7f02002b" app:popExitAnim="@animator/CreatedbyRmt_res_0x7f020028"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0056" app:destination="@+id/CreatedbyRmt_res_0x7f0a050c"/>
+    </fragment>
+    <fragment android:name="com.taxsee.screen.login.login_by_phone.enter_code.EnterCodeFragmentNew" android:id="@+id/CreatedbyRmt_res_0x7f0a0244">
+        <argument android:name="phone" app:argType="string"/>
+        <argument android:name="code_sent_description" app:argType="string"/>
+        <argument android:name="next_resent_code_time_ms" app:argType="long"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0056" app:destination="@+id/CreatedbyRmt_res_0x7f0a050c"/>
+    </fragment>
+    <dialog android:name="com.taxsee.screen.login.login_by_phone.select_login_variant.SelectLoginVariantFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a050c"/>
+</navigation>

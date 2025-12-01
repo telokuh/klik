@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CreatedbyRmt_res_0x7f15007d" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:enforceStatusBarContrast">false</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f15007f" parent="@style/CreatedbyRmt_res_0x7f15007d">
+    </style>
+</resources>

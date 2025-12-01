@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a00aa" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a03fb">
+    <dialog android:name="com.taxsee.next_order.NextOrderFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a03fb"/>
+</navigation>

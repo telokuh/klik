@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">کد وارد شده صحیح نیست. تعداد دفعات باقی‌مانده برای ثبت کد صحیح: %d</item>
+        <item quantity="other">کد وارد شده صحیح نیست. تعداد دفعات باقی‌مانده برای ثبت کد صحیح: %d</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">تعداد دفعات باقی‌مانده برای ثبت کد صحیح: %d</item>
+        <item quantity="other">تعداد دفعات باقی‌مانده برای ثبت کد صحیح: %d</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">درخواست پس از %1$s ثانیه لغو خواهد شد.</item>
+        <item quantity="other">درخواست پس از %1$s ثانیه لغو خواهد شد.</item>
+    </plurals>
+</resources>

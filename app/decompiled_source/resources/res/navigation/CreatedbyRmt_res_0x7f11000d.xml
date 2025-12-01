@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a00af" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a03b9">
+    <dialog android:name="com.feature.kaspro.topup.TopUpKasproMethodsFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a03b9">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0065" app:destination="@+id/CreatedbyRmt_res_0x7f0a06af"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0064" app:destination="@+id/CreatedbyRmt_res_0x7f0a02ea"/>
+    </dialog>
+    <fragment android:name="com.feature.kaspro.topup.TopUpKasproTypesFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a06af">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a009c" app:destination="@+id/CreatedbyRmt_res_0x7f0a02ea"/>
+    </fragment>
+    <fragment android:name="com.feature.kaspro.topup.TopUpKasproInstructionsFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a02ea"/>
+</navigation>

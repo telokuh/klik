@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="other">Mã không đúng. Bạn còn %d lần nhập mã.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="other">Bạn còn %d lần nhập mã.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="other">Cuốc xe sẽ hủy sau %1$s giây</item>
+    </plurals>
+</resources>

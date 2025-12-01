@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="CreatedbyRmt_res_0x7f030000">
+        <item>%d pang address</item>
+        <item>%d pang address</item>
+        <item>%d pang address</item>
+    </array>
+    <array name="CreatedbyRmt_res_0x7f030002">
+        <item>Enero</item>
+        <item>Peb</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>Mayo</item>
+        <item>Hun</item>
+        <item>Hul</item>
+        <item>Agos</item>
+        <item>Set</item>
+        <item>Okt</item>
+        <item>Nob</item>
+        <item>Dis</item>
+    </array>
+</resources>

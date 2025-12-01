@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector>
+        <item android:state_enabled="true" android:state_hovered="true">
+            <set>
+                <objectAnimator android:duration="@integer/CreatedbyRmt_res_0x7f0b000f" android:valueTo="@dimen/CreatedbyRmt_res_0x7f070101" android:valueType="floatType" android:propertyName="translationZ"/>
+                <objectAnimator android:duration="0" android:valueTo="@dimen/CreatedbyRmt_res_0x7f0700ee" android:valueType="floatType" android:propertyName="elevation"/>
+            </set>
+        </item>
+        <item android:state_enabled="true">
+            <set>
+                <objectAnimator android:duration="@integer/CreatedbyRmt_res_0x7f0b000f" android:valueTo="@dimen/CreatedbyRmt_res_0x7f070100" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="@integer/CreatedbyRmt_res_0x7f0b000e"/>
+                <objectAnimator android:duration="0" android:valueTo="@dimen/CreatedbyRmt_res_0x7f0700ee" android:valueType="floatType" android:propertyName="elevation"/>
+            </set>
+        </item>
+        <item>
+            <set>
+                <objectAnimator android:duration="0" android:valueTo="@dimen/CreatedbyRmt_res_0x7f0700ec" android:valueType="floatType" android:propertyName="translationZ"/>
+                <objectAnimator android:duration="0" android:valueTo="@dimen/CreatedbyRmt_res_0x7f0700eb" android:valueType="floatType" android:propertyName="elevation"/>
+            </set>
+        </item>
+    </selector>
+</set>

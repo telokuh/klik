@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a038b" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a02a5">
+    <fragment android:label="CurrentOrderFragment" android:name="com.taxsee.driver.feature.main.ActiveOrderFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a00a0"/>
+    <fragment android:label="NavigatorFragment" android:name="com.taxsee.driver.feature.main.NavigatorFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a03f4"/>
+    <fragment android:label="OrderGroupsFragment" android:name="com.taxsee.feature.zone_groups.zone_groups_list.ui.OrderGroupsFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a02a5"/>
+    <include app:graph="@navigation/CreatedbyRmt_res_0x7f11000e"/>
+    <fragment android:label="MenuFragment" android:name="com.feature.menu.MenuFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a03ac"/>
+    <action android:id="@+id/CreatedbyRmt_res_0x7f0a0093" app:destination="@+id/CreatedbyRmt_res_0x7f0a0468"/>
+    <dialog android:name="com.taxsee.driver.feature.order.actions.OrderActionsPopupFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0468"/>
+    <action android:id="@+id/CreatedbyRmt_res_0x7f0a0092" app:destination="@+id/CreatedbyRmt_res_0x7f0a0463"/>
+    <dialog android:name="com.taxsee.driver.feature.order.CallToClientFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0463">
+        <argument android:name="clientId" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+    </dialog>
+</navigation>

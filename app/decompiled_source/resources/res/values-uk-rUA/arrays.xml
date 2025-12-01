@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="CreatedbyRmt_res_0x7f030000">
+        <item>Ще %d адреса</item>
+        <item>Ще %d адреси</item>
+        <item>Ще %d адрес</item>
+    </array>
+    <array name="CreatedbyRmt_res_0x7f030002">
+        <item>Січ</item>
+        <item>Лют</item>
+        <item>Бер</item>
+        <item>Кві</item>
+        <item>Тра</item>
+        <item>Чер</item>
+        <item>Лип</item>
+        <item>Сер</item>
+        <item>Вер</item>
+        <item>Жов</item>
+        <item>Лис</item>
+        <item>Гру</item>
+    </array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">यह कोड अमान्य है। शेष प्रयासों की कुल संख्या %d है।</item>
+        <item quantity="other">यह कोड अमान्य है। शेष प्रयासों की कुल संख्या %d है।</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">%d प्रयास शेष।</item>
+        <item quantity="other">%d प्रयास शेष।</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">The order will be canceled in %1$s second</item>
+        <item quantity="other">The order will be canceled in %1$s seconds</item>
+    </plurals>
+</resources>

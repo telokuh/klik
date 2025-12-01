@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CreatedbyRmt_res_0x7f1401b4">Previous version%s is available</string>
+    <string name="CreatedbyRmt_res_0x7f1401b5">Previous version%s is ready for installation</string>
+    <string name="CreatedbyRmt_res_0x7f1401b6">The downloaded file is corrupted</string>
+    <string name="CreatedbyRmt_res_0x7f1401b7">Downloading previous version%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401b8">Downloading update%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401b9">Can not download previous version%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401ba">Can not download update%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401bb">Can not resume downloading of previous version%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401bc">Can not resume downloading update%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401bd">Insufficient space to download previous version%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401be">Insufficient space to download update%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401c1">Downloading of previous version%s is paused</string>
+    <string name="CreatedbyRmt_res_0x7f1401c2">Downloading of update%s is paused</string>
+    <string name="CreatedbyRmt_res_0x7f1401c3">Update%s is available</string>
+    <string name="CreatedbyRmt_res_0x7f1401c4">Update%s is ready for installation</string>
+</resources>

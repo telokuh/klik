@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">Neispravan kod. Još %d pokušaj.</item>
+        <item quantity="few">Neispravan kod. Preostalo %d pokušaja.</item>
+        <item quantity="other">Neispravan kod. Preostalo %d pokušaja.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">Još %d pokušaj.</item>
+        <item quantity="few">Preostalo %d pokušaja.</item>
+        <item quantity="other">Preostalo %d pokušaja.</item>
+    </plurals>
+</resources>

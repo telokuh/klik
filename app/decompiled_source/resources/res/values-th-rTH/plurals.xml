@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="other">รหัสไม่ถูกต้อง สามารถลองได้อีก %d ครั้ง</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="other">สามารถลองได้อีก %d ครั้ง</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="other">ออเดอร์จะถูกยกเลิกในอีก %1$s วินาที</item>
+    </plurals>
+</resources>

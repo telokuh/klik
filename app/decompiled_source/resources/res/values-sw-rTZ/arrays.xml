@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="CreatedbyRmt_res_0x7f030000">
+        <item>Anwani %d zaidi</item>
+        <item>Anwani %d zaidi</item>
+        <item>Anwani %d zaidi</item>
+    </array>
+    <array name="CreatedbyRmt_res_0x7f030002">
+        <item>Januari</item>
+        <item>Febuari</item>
+        <item>Machi</item>
+        <item>Aprili</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Julai</item>
+        <item>Agosti</item>
+        <item>Septemba</item>
+        <item>Oktoba</item>
+        <item>Novemba</item>
+        <item>Desemba</item>
+    </array>
+</resources>

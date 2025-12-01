@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">Msimbo batili. Jaribio %d limesalia.</item>
+        <item quantity="other">Msimbo si sahihi. Jaribio %d limesalia.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">Jaribio %d limesalia.</item>
+        <item quantity="other">Majaribio %d yamesalia.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">Oda itaghairiwa baada ya sekunde %1$s</item>
+        <item quantity="other">Oda itaghairiwa baada ya sekunde %1$s</item>
+    </plurals>
+</resources>

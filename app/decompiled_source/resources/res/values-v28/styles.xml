@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/CreatedbyRmt_res_0x7f1502a8">
+        <item name="android:colorBackground">@color/CreatedbyRmt_res_0x7f0603fc</item>
+        <item name="android:textColorPrimary">@color/CreatedbyRmt_res_0x7f06044a</item>
+        <item name="android:textColorSecondary">@color/CreatedbyRmt_res_0x7f060448</item>
+        <item name="android:windowBackground">@color/CreatedbyRmt_res_0x7f0603fa</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">@color/CreatedbyRmt_res_0x7f06044a</item>
+        <item name="android:windowAnimationStyle">@style/CreatedbyRmt_res_0x7f1504ec</item>
+        <item name="android:textAppearanceListItem">@style/CreatedbyRmt_res_0x7f150256</item>
+        <item name="android:textAppearanceListItemSecondary">@style/CreatedbyRmt_res_0x7f150255</item>
+        <item name="android:statusBarColor">@color/CreatedbyRmt_res_0x7f06044f</item>
+        <item name="android:navigationBarColor">@color/CreatedbyRmt_res_0x7f06005c</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="CreatedbyRmt_res_0x7f040000">@color/CreatedbyRmt_res_0x7f060000</item>
+        <item name="CreatedbyRmt_res_0x7f040001">@color/CreatedbyRmt_res_0x7f060001</item>
+        <item name="CreatedbyRmt_res_0x7f040002">@color/CreatedbyRmt_res_0x7f060118</item>
+        <item name="CreatedbyRmt_res_0x7f040034">@style/CreatedbyRmt_res_0x7f1502c9</item>
+        <item name="CreatedbyRmt_res_0x7f040044">@style/CreatedbyRmt_res_0x7f15038c</item>
+        <item name="CreatedbyRmt_res_0x7f040066">@style/CreatedbyRmt_res_0x7f15038d</item>
+        <item name="CreatedbyRmt_res_0x7f040089">@style/CreatedbyRmt_res_0x7f1504e6</item>
+        <item name="CreatedbyRmt_res_0x7f04008c">@style/CreatedbyRmt_res_0x7f15038e</item>
+        <item name="CreatedbyRmt_res_0x7f04008d">@style/CreatedbyRmt_res_0x7f1502d3</item>
+        <item name="CreatedbyRmt_res_0x7f0400c8">@style/CreatedbyRmt_res_0x7f150394</item>
+        <item name="CreatedbyRmt_res_0x7f0400d4">@style/CreatedbyRmt_res_0x7f150395</item>
+        <item name="CreatedbyRmt_res_0x7f0400d6">@style/CreatedbyRmt_res_0x7f150396</item>
+        <item name="CreatedbyRmt_res_0x7f0400d9">@style/CreatedbyRmt_res_0x7f150397</item>
+        <item name="CreatedbyRmt_res_0x7f0400da">@style/CreatedbyRmt_res_0x7f150398</item>
+        <item name="CreatedbyRmt_res_0x7f0400ee">@style/CreatedbyRmt_res_0x7f150399</item>
+        <item name="CreatedbyRmt_res_0x7f04010f">@color/CreatedbyRmt_res_0x7f060053</item>
+        <item name="CreatedbyRmt_res_0x7f040115">@color/CreatedbyRmt_res_0x7f06043d</item>
+        <item name="CreatedbyRmt_res_0x7f040116">@color/CreatedbyRmt_res_0x7f060058</item>
+        <item name="CreatedbyRmt_res_0x7f04011b">@color/CreatedbyRmt_res_0x7f06005a</item>
+        <item name="CreatedbyRmt_res_0x7f04011d">@color/CreatedbyRmt_res_0x7f060452</item>
+        <item name="CreatedbyRmt_res_0x7f040122">@color/CreatedbyRmt_res_0x7f060447</item>
+        <item name="CreatedbyRmt_res_0x7f040126">@color/CreatedbyRmt_res_0x7f06044a</item>
+        <item name="CreatedbyRmt_res_0x7f04012f">@color/CreatedbyRmt_res_0x7f06044f</item>
+        <item name="CreatedbyRmt_res_0x7f040136">@color/CreatedbyRmt_res_0x7f06005c</item>
+        <item name="CreatedbyRmt_res_0x7f040138">@color/CreatedbyRmt_res_0x7f060053</item>
+        <item name="CreatedbyRmt_res_0x7f04013c">@color/CreatedbyRmt_res_0x7f06011b</item>
+        <item name="CreatedbyRmt_res_0x7f04013d">@color/CreatedbyRmt_res_0x7f06002a</item>
+        <item name="CreatedbyRmt_res_0x7f04019f">@style/CreatedbyRmt_res_0x7f1503a7</item>
+        <item name="CreatedbyRmt_res_0x7f0401cd">false</item>
+        <item name="CreatedbyRmt_res_0x7f0401f9">@style/CreatedbyRmt_res_0x7f1503a9</item>
+        <item name="CreatedbyRmt_res_0x7f0401fe">@style/CreatedbyRmt_res_0x7f1503aa</item>
+        <item name="CreatedbyRmt_res_0x7f040221">@style/CreatedbyRmt_res_0x7f1503ab</item>
+        <item name="CreatedbyRmt_res_0x7f04031a">@style/CreatedbyRmt_res_0x7f1503ac</item>
+        <item name="CreatedbyRmt_res_0x7f040399">@style/CreatedbyRmt_res_0x7f1504d7</item>
+        <item name="CreatedbyRmt_res_0x7f04039a">@style/CreatedbyRmt_res_0x7f150390</item>
+        <item name="CreatedbyRmt_res_0x7f0403ae">@style/CreatedbyRmt_res_0x7f150392</item>
+        <item name="CreatedbyRmt_res_0x7f0403b3">@style/CreatedbyRmt_res_0x7f1503a8</item>
+        <item name="CreatedbyRmt_res_0x7f040455">@style/CreatedbyRmt_res_0x7f150393</item>
+        <item name="CreatedbyRmt_res_0x7f04045d">@style/CreatedbyRmt_res_0x7f1504d9</item>
+        <item name="CreatedbyRmt_res_0x7f040470">@style/CreatedbyRmt_res_0x7f1504da</item>
+        <item name="CreatedbyRmt_res_0x7f040499">@style/CreatedbyRmt_res_0x7f1504dc</item>
+        <item name="CreatedbyRmt_res_0x7f04049a">@style/CreatedbyRmt_res_0x7f1504db</item>
+        <item name="CreatedbyRmt_res_0x7f0404a9">@style/CreatedbyRmt_res_0x7f150190</item>
+        <item name="CreatedbyRmt_res_0x7f0404aa">@style/CreatedbyRmt_res_0x7f1501bc</item>
+        <item name="CreatedbyRmt_res_0x7f0404ac">@style/CreatedbyRmt_res_0x7f1501bd</item>
+        <item name="CreatedbyRmt_res_0x7f0404ca">@style/CreatedbyRmt_res_0x7f1504dd</item>
+        <item name="CreatedbyRmt_res_0x7f0404cb">@style/CreatedbyRmt_res_0x7f1504df</item>
+        <item name="CreatedbyRmt_res_0x7f0404cc">@style/CreatedbyRmt_res_0x7f1504de</item>
+        <item name="CreatedbyRmt_res_0x7f0404cd">@style/CreatedbyRmt_res_0x7f1504e0</item>
+        <item name="CreatedbyRmt_res_0x7f04050f">@style/CreatedbyRmt_res_0x7f1504e4</item>
+        <item name="CreatedbyRmt_res_0x7f040511">@style/CreatedbyRmt_res_0x7f1504e3</item>
+        <item name="CreatedbyRmt_res_0x7f04052e">@style/CreatedbyRmt_res_0x7f1504e5</item>
+        <item name="CreatedbyRmt_res_0x7f04053e">@style/CreatedbyRmt_res_0x7f150207</item>
+        <item name="CreatedbyRmt_res_0x7f04054e">@style/CreatedbyRmt_res_0x7f150254</item>
+        <item name="CreatedbyRmt_res_0x7f04056e">@style/CreatedbyRmt_res_0x7f1504e7</item>
+        <item name="CreatedbyRmt_res_0x7f0405a9">@style/CreatedbyRmt_res_0x7f1504e8</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f15000f" parent="@style/AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">default</item>
+        <item name="CreatedbyRmt_res_0x7f0405e9">100%</item>
+        <item name="CreatedbyRmt_res_0x7f0405ea">100%</item>
+        <item name="CreatedbyRmt_res_0x7f0405ed">100%</item>
+        <item name="CreatedbyRmt_res_0x7f0405ee">100%</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150050" parent="@style/CreatedbyRmt_res_0x7f1500c0">
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150057" parent="@style/CreatedbyRmt_res_0x7f1500c1">
+    </style>
+    <style name="CreatedbyRmt_res_0x7f1500a7" parent="@style/CreatedbyRmt_res_0x7f1502d1">
+        <item name="android:backgroundDimAmount">@dimen/CreatedbyRmt_res_0x7f07018b</item>
+        <item name="android:checkedTextViewStyle">@style/CreatedbyRmt_res_0x7f15047b</item>
+        <item name="android:dialogCornerRadius">@null</item>
+        <item name="CreatedbyRmt_res_0x7f040033">@style/CreatedbyRmt_res_0x7f150148</item>
+        <item name="CreatedbyRmt_res_0x7f04009e">@style/CreatedbyRmt_res_0x7f150473</item>
+        <item name="CreatedbyRmt_res_0x7f04009f">@style/CreatedbyRmt_res_0x7f150473</item>
+        <item name="CreatedbyRmt_res_0x7f0400a0">@style/CreatedbyRmt_res_0x7f150474</item>
+        <item name="CreatedbyRmt_res_0x7f0400a1">@style/CreatedbyRmt_res_0x7f150473</item>
+        <item name="CreatedbyRmt_res_0x7f040393">@style/CreatedbyRmt_res_0x7f150149</item>
+        <item name="CreatedbyRmt_res_0x7f040394">@integer/CreatedbyRmt_res_0x7f0b0045</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f1500c0" parent="@style/CreatedbyRmt_res_0x7f1500bd">
+        <item name="CreatedbyRmt_res_0x7f04019b">?android:attr/dialogCornerRadius</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f1500c1" parent="@style/CreatedbyRmt_res_0x7f1500be">
+        <item name="CreatedbyRmt_res_0x7f04019b">?android:attr/dialogCornerRadius</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f15021e" parent="@style/CreatedbyRmt_res_0x7f1501d7">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140366</item>
+        <item name="android:letterSpacing">0.0312</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140366</item>
+        <item name="CreatedbyRmt_res_0x7f040318">24sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f15021f" parent="@style/CreatedbyRmt_res_0x7f1501d6">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140366</item>
+        <item name="android:letterSpacing">0.0179</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140366</item>
+        <item name="CreatedbyRmt_res_0x7f040318">20sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150220" parent="@style/CreatedbyRmt_res_0x7f1501d9">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140366</item>
+        <item name="android:letterSpacing">0.0333</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140366</item>
+        <item name="CreatedbyRmt_res_0x7f040318">16sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150221" parent="@style/CreatedbyRmt_res_0x7f1501dc">
+        <item name="android:textSize">57sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="android:letterSpacing">-0.0044</item>
+        <item name="android:lineHeight">64sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="CreatedbyRmt_res_0x7f040318">64sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150222" parent="@style/CreatedbyRmt_res_0x7f1501db">
+        <item name="android:textSize">45sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">52sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="CreatedbyRmt_res_0x7f040318">52sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150223" parent="@style/CreatedbyRmt_res_0x7f1501da">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">44sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="CreatedbyRmt_res_0x7f040318">44sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150224" parent="@style/CreatedbyRmt_res_0x7f1501da">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">40sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="CreatedbyRmt_res_0x7f040318">40sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150225" parent="@style/CreatedbyRmt_res_0x7f1501de">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">36sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="CreatedbyRmt_res_0x7f040318">36sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150226" parent="@style/CreatedbyRmt_res_0x7f1501ef">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">32sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="CreatedbyRmt_res_0x7f040318">32sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150227" parent="@style/CreatedbyRmt_res_0x7f1501d6">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140365</item>
+        <item name="android:letterSpacing">0.0071</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140365</item>
+        <item name="CreatedbyRmt_res_0x7f040318">20sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150228" parent="@style/CreatedbyRmt_res_0x7f1501d9">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140365</item>
+        <item name="android:letterSpacing">0.0417</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140365</item>
+        <item name="CreatedbyRmt_res_0x7f040318">16sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150229" parent="@style/CreatedbyRmt_res_0x7f1501d9">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140365</item>
+        <item name="android:letterSpacing">0.0455</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140365</item>
+        <item name="CreatedbyRmt_res_0x7f040318">16sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f15022a" parent="@style/CreatedbyRmt_res_0x7f1501ef">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:lineHeight">28sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140364</item>
+        <item name="CreatedbyRmt_res_0x7f040318">28sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f15022b" parent="@style/CreatedbyRmt_res_0x7f1501ed">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140365</item>
+        <item name="android:letterSpacing">0.0094</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140365</item>
+        <item name="CreatedbyRmt_res_0x7f040318">24sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f15022c" parent="@style/CreatedbyRmt_res_0x7f1501ed">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/CreatedbyRmt_res_0x7f140365</item>
+        <item name="android:letterSpacing">0.0071</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="CreatedbyRmt_res_0x7f040238">@string/CreatedbyRmt_res_0x7f140365</item>
+        <item name="CreatedbyRmt_res_0x7f040318">20sp</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f1503b0" parent="@style/CreatedbyRmt_res_0x7f150460">
+        <item name="android:background">?attr/CreatedbyRmt_res_0x7f04013d</item>
+        <item name="android:stateListAnimator">@animator/CreatedbyRmt_res_0x7f02000b</item>
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="CreatedbyRmt_res_0x7f040314">true</item>
+        <item name="CreatedbyRmt_res_0x7f040315">?attr/CreatedbyRmt_res_0x7f04013f</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f1503bb" parent="@style/CreatedbyRmt_res_0x7f150107">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150436" parent="@android:style/Widget">
+        <item name="android:textAppearance">@style/CreatedbyRmt_res_0x7f15023c</item>
+        <item name="android:minHeight">@dimen/CreatedbyRmt_res_0x7f0701f9</item>
+        <item name="android:paddingStart">@dimen/CreatedbyRmt_res_0x7f0701fd</item>
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="CreatedbyRmt_res_0x7f04005f">?attr/CreatedbyRmt_res_0x7f040140</item>
+        <item name="CreatedbyRmt_res_0x7f040190">true</item>
+        <item name="CreatedbyRmt_res_0x7f040193">true</item>
+        <item name="CreatedbyRmt_res_0x7f0401ca">@dimen/CreatedbyRmt_res_0x7f0701f8</item>
+        <item name="CreatedbyRmt_res_0x7f0401dd">true</item>
+        <item name="CreatedbyRmt_res_0x7f040263">false</item>
+        <item name="CreatedbyRmt_res_0x7f0403be">@style/CreatedbyRmt_res_0x7f15030b</item>
+        <item name="CreatedbyRmt_res_0x7f0403c4">@dimen/CreatedbyRmt_res_0x7f0701f9</item>
+        <item name="CreatedbyRmt_res_0x7f0404a3">?attr/CreatedbyRmt_res_0x7f0404aa</item>
+        <item name="CreatedbyRmt_res_0x7f0404ab">@style/CreatedbyRmt_res_0x7f1501c9</item>
+    </style>
+    <style name="CreatedbyRmt_res_0x7f150455" parent="@style/CreatedbyRmt_res_0x7f150389">
+        <item name="android:outlineSpotShadowColor">@android:color/transparent</item>
+        <item name="android:outlineAmbientShadowColor">@android:color/transparent</item>
+        <item name="CreatedbyRmt_res_0x7f04015c">0dp</item>
+        <item name="CreatedbyRmt_res_0x7f040502">?attr/CreatedbyRmt_res_0x7f04055b</item>
+        <item name="CreatedbyRmt_res_0x7f0405a2">?attr/CreatedbyRmt_res_0x7f04055a</item>
+    </style>
+</resources>

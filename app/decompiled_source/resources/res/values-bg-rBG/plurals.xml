@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">Грешен код. Остана %d опит за въвеждане.</item>
+        <item quantity="other">Грешен код. Останаха %d опита за въвеждане.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">Остана %d опит за въвеждане.</item>
+        <item quantity="other">Останаха %d опита за въвеждане.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">Поръчката ще бъде отменена след %1$s секунда</item>
+        <item quantity="other">Поръчката ще бъде отменена след %1$s секунди</item>
+    </plurals>
+</resources>

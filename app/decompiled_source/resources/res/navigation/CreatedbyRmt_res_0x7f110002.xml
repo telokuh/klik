@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a00a4" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a040d">
+    <fragment android:name="com.feature.kaspro.activatepremium.ActivateKasproPremiumFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a040d">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a006a" app:destination="@+id/CreatedbyRmt_res_0x7f0a050e" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a040d" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:name="com.feature.kaspro.activatepremium.SelectUpgradeTypeFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a050e">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a006b" app:destination="@+id/CreatedbyRmt_res_0x7f0a055a" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a050e" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:name="com.feature.kaspro.activatepremium.StartActivatePremiumFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a055a">
+        <argument android:name="upgradeType" app:argType="string"/>
+        <argument android:name="promotion" android:defaultValue="" app:argType="string"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a003b" app:destination="@+id/CreatedbyRmt_res_0x7f0a050d"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a003a" app:destination="@+id/CreatedbyRmt_res_0x7f0a045d"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0039" app:destination="@+id/CreatedbyRmt_res_0x7f0a045a"/>
+    </fragment>
+    <fragment android:name="com.feature.kaspro.activatepremium.KasproPersonalInfoFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a045a">
+        <argument android:name="upgradeType" app:argType="string"/>
+        <argument android:name="promotion" android:defaultValue="" app:argType="string"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0077" app:destination="@+id/CreatedbyRmt_res_0x7f0a01ff"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0078" app:destination="@+id/CreatedbyRmt_res_0x7f0a055a" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a055a" app:popUpToInclusive="true"/>
+    </fragment>
+    <dialog android:name="com.feature.kaspro.activatepremium.KasproDatePickerFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a01ff">
+        <argument android:name="current" app:argType="java.util.Date"/>
+        <argument android:name="minDate" android:defaultValue="@null" app:argType="java.util.Date" app:nullable="true"/>
+        <argument android:name="maxDate" android:defaultValue="@null" app:argType="java.util.Date" app:nullable="true"/>
+        <argument android:name="timeZone" android:defaultValue="@null" app:argType="java.util.TimeZone" app:nullable="true"/>
+    </dialog>
+    <fragment android:name="com.feature.kaspro.activatepremium.PhotoDetailFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a045d">
+        <argument android:name="upgradeType" app:argType="string"/>
+        <argument android:name="photoCode" app:argType="string"/>
+        <argument android:name="file_path" app:argType="string"/>
+        <argument android:name="promotion" android:defaultValue="" app:argType="string"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0079" app:destination="@+id/CreatedbyRmt_res_0x7f0a050d"/>
+    </fragment>
+    <dialog android:name="com.feature.kaspro.activatepremium.SelectKasproPhotoSourceFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a050d">
+        <argument android:name="upgradeType" app:argType="string"/>
+        <argument android:name="photoCode" app:argType="string"/>
+        <argument android:name="promotion" android:defaultValue="" app:argType="string"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0084" app:destination="@+id/CreatedbyRmt_res_0x7f0a0294" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a055a" app:popUpToInclusive="false"/>
+    </dialog>
+    <fragment android:name="com.feature.kaspro.activatepremium.GalleryPhotoPreviewFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0294">
+        <argument android:name="upgradeType" app:argType="string"/>
+        <argument android:name="photoCode" app:argType="string"/>
+        <argument android:name="gallery_file_path" app:argType="string"/>
+        <argument android:name="promotion" android:defaultValue="" app:argType="string"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a007a" app:destination="@+id/CreatedbyRmt_res_0x7f0a050d"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a007b" app:destination="@+id/CreatedbyRmt_res_0x7f0a055a" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a055a" app:popUpToInclusive="true"/>
+    </fragment>
+    <action android:id="@+id/CreatedbyRmt_res_0x7f0a0045" app:destination="@+id/photo_preview" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a055a" app:popUpToInclusive="false"/>
+    <fragment android:name="com.feature.kaspro.activatepremium.PhotoPreviewFragment" android:id="@+id/photo_preview">
+        <argument android:name="upgradeType" app:argType="string"/>
+        <argument android:name="photoCode" app:argType="string"/>
+        <argument android:name="file_path" app:argType="string"/>
+        <argument android:name="promotion" android:defaultValue="" app:argType="string"/>
+        <argument android:name="orientation" app:argType="com.taxsee.entity.content.kaspro.CameraOrientation"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a007b" app:destination="@+id/CreatedbyRmt_res_0x7f0a055a" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a055a" app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>

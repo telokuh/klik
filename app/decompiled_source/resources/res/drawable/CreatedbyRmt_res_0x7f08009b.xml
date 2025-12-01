@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/CreatedbyRmt_res_0x7f08009a">
+    <target android:name="icon_null" android:animation="@anim/CreatedbyRmt_res_0x7f010010"/>
+    <target android:name="box_outer_merged" android:animation="@anim/CreatedbyRmt_res_0x7f01000f"/>
+    <target android:name="box_inner_merged" android:animation="@anim/CreatedbyRmt_res_0x7f01000e"/>
+</animated-vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>analyticsTransferSettings
+        </key>
+        <value> {&quot;batch&quot;:{&quot;accumulationTime&quot;:20,&quot;sizeLimit&quot;:100},&quot;eventsForNextSession&quot;:[&quot;sNotification&quot;,&quot;wUniversalPush&quot;],&quot;eventsForWhichLocationNeeded&quot;:[&quot;bOrderRequesOk&quot;,&quot;bRequest&quot;,&quot;sDriverAssigned&quot;,&quot;sDriverAssignedPre&quot;,&quot;sDriverArrived&quot;,&quot;sDriverOnWay&quot;,&quot;bAlreadyComing&quot;,&quot;sComplete&quot;],&quot;jsonSchemeVersion&quot;:1,&quot;requiredEvents&quot;:[&quot;bOrderRequesOk&quot;,&quot;bRequest&quot;,&quot;abTest&quot;],&quot;timeout&quot;:{&quot;connect&quot;:20,&quot;read&quot;:20,&quot;write&quot;:20}}
+        </value>
+    </entry>
+</defaultsMap>

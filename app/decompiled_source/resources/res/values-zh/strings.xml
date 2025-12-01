@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CreatedbyRmt_res_0x7f1401b4">原版本可用%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401b5">原版本%s准备就绪，可以安装</string>
+    <string name="CreatedbyRmt_res_0x7f1401b6">上传的文件已损坏</string>
+    <string name="CreatedbyRmt_res_0x7f1401b7">原版本正在加载%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401b8">更新正在加载%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401b9">原版本%s加载失败</string>
+    <string name="CreatedbyRmt_res_0x7f1401ba">更新加载%s失败</string>
+    <string name="CreatedbyRmt_res_0x7f1401bb">继续原版本加载%s失败</string>
+    <string name="CreatedbyRmt_res_0x7f1401bc">继续更新加载%s失败</string>
+    <string name="CreatedbyRmt_res_0x7f1401bd">原版本%s加载空间不足</string>
+    <string name="CreatedbyRmt_res_0x7f1401be">下载更新%s空间不足</string>
+    <string name="CreatedbyRmt_res_0x7f1401c1">原版本加载%s已暂停</string>
+    <string name="CreatedbyRmt_res_0x7f1401c2">更新加载%s已暂停</string>
+    <string name="CreatedbyRmt_res_0x7f1401c3">可更新%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401c4">更新%s准备就绪，可以安装</string>
+</resources>

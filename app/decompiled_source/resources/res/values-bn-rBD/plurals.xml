@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">ভুল সঙ্কেত. %d প্রচেষ্টা বাকি।</item>
+        <item quantity="other">ভুল সঙ্কেত. %d প্রয়াস বাকি।</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">%d প্রচেষ্টা বাকি।</item>
+        <item quantity="other">%d প্রয়াস বাকি।</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">অর্ডারটি %1$s সেকেন্ডের মধ্যে বাতিল হয়ে যাবে</item>
+        <item quantity="other">অর্ডারটি %1$s এর মধ্যে বাতিল করা হবে</item>
+    </plurals>
+</resources>

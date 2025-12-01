@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">კოდი არასწორია. დარჩა შეყვანის %d მცდელობა.</item>
+        <item quantity="other">კოდი არასწორია. დარჩა შეყვანის %d მცდელობა.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">დარჩა შეყვანის %d მცდელობა.</item>
+        <item quantity="other">დარჩა შეყვანის %d მცდელობა.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">შეკვეთა გაუქმდება %1$s წამში</item>
+        <item quantity="other">შეკვეთა გაუქმდება %1$s წამში</item>
+    </plurals>
+</resources>

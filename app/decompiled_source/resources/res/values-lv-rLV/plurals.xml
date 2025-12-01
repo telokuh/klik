@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="zero">Код неверный. Осталось %d попыток ввода.</item>
+        <item quantity="one">Код неверный. Осталась %d попытка ввода.</item>
+        <item quantity="other">Код неверный. Осталось %d попыток ввода.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="zero">Осталось %d попыток ввода.</item>
+        <item quantity="one">Осталась %d попытка ввода.</item>
+        <item quantity="other">Осталось %d попыток ввода.</item>
+    </plurals>
+</resources>

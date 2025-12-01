@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a0521" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a0529">
+    <fragment android:name="com.feature.shared_intercity.list.SharedIntercityOrderListFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0529">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0070" app:destination="@+id/CreatedbyRmt_res_0x7f0a0527"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a006f" app:destination="@+id/CreatedbyRmt_res_0x7f0a0523">
+            <argument android:name="orderId" android:defaultValue="0L" app:argType="long"/>
+            <argument android:name="deeplink" app:argType="android.content.Intent" app:nullable="true"/>
+        </action>
+    </fragment>
+    <fragment android:name="com.feature.shared_intercity.order.SharedIntercityOrderFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0527">
+        <argument android:name="orderId" app:argType="long"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0072" app:destination="@+id/CreatedbyRmt_res_0x7f0a0528"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0073" app:destination="@+id/CreatedbyRmt_res_0x7f0a052a"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0071" app:destination="@+id/CreatedbyRmt_res_0x7f0a0523">
+            <argument android:name="orderId" app:argType="long"/>
+        </action>
+    </fragment>
+    <fragment android:name="com.feature.shared_intercity.order.map.SharedIntercityOrderMapFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a052a">
+        <argument android:name="orderId" app:argType="long"/>
+    </fragment>
+    <dialog android:name="com.feature.shared_intercity.order.actions.SharedIntercityOrderActionsFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0528">
+        <argument android:name="orderId" app:argType="long"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0090" app:destination="@+id/CreatedbyRmt_res_0x7f0a0529" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a0529" app:popUpToInclusive="true"/>
+    </dialog>
+    <navigation android:id="@+id/CreatedbyRmt_res_0x7f0a0523" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a0524">
+        <fragment android:name="com.feature.shared_intercity.form.SharedIntercityCreateOrderFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0524">
+            <argument android:name="orderId" android:defaultValue="0L" app:argType="long"/>
+            <argument android:name="deeplink" android:defaultValue="@null" app:argType="android.content.Intent" app:nullable="true"/>
+            <action android:id="@+id/CreatedbyRmt_res_0x7f0a008e" app:destination="@+id/CreatedbyRmt_res_0x7f0a0522"/>
+            <action android:id="@+id/CreatedbyRmt_res_0x7f0a0095" app:destination="@+id/CreatedbyRmt_res_0x7f0a052c"/>
+            <action android:id="@+id/CreatedbyRmt_res_0x7f0a008f" app:destination="@+id/CreatedbyRmt_res_0x7f0a0525"/>
+            <action android:id="@+id/CreatedbyRmt_res_0x7f0a009a" app:destination="@+id/CreatedbyRmt_res_0x7f0a052d"/>
+            <action android:id="@+id/CreatedbyRmt_res_0x7f0a0094" app:destination="@+id/CreatedbyRmt_res_0x7f0a052b"/>
+            <action android:id="@+id/CreatedbyRmt_res_0x7f0a0081" app:destination="@+id/CreatedbyRmt_res_0x7f0a0529" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a0529" app:popUpToInclusive="true"/>
+            <action android:id="@+id/CreatedbyRmt_res_0x7f0a0082" app:destination="@+id/CreatedbyRmt_res_0x7f0a0527" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a0529" app:popUpToInclusive="false"/>
+        </fragment>
+        <dialog android:name="com.feature.shared_intercity.form.pickers.CarPickerFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0522"/>
+        <dialog android:name="com.feature.shared_intercity.form.pickers.SeatsSetterFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a052c"/>
+        <dialog android:name="com.feature.shared_intercity.picker.date.DatePickerFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0525"/>
+        <dialog android:name="com.feature.shared_intercity.picker.time.TimePickerFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a052d">
+            <argument android:name="title" app:argType="string"/>
+            <argument android:name="placeName" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        </dialog>
+        <dialog android:name="com.feature.shared_intercity.form.pickers.PriceSetterFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a052b"/>
+    </navigation>
+</navigation>

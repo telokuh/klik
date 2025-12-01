@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="@dimen/CreatedbyRmt_res_0x7f070335" android:width="@dimen/CreatedbyRmt_res_0x7f070336" android:viewportWidth="@integer/CreatedbyRmt_res_0x7f0b0042" android:viewportHeight="@integer/CreatedbyRmt_res_0x7f0b0041">
+    <path android:name="track" android:fillColor="#ffffffff" android:pathData="@string/CreatedbyRmt_res_0x7f1403e5"/>
+</vector>

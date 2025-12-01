@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/CreatedbyRmt_res_0x7f0800c1"/>
+    <item android:left="-36dp">
+        <bitmap android:gravity="center" android:src="@drawable/CreatedbyRmt_res_0x7f0800d2"/>
+    </item>
+</layer-list>

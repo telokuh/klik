@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_enabled="true" android:state_hovered="true">
+        <objectAnimator android:interpolator="?attr/CreatedbyRmt_res_0x7f0403f7" android:duration="?attr/CreatedbyRmt_res_0x7f0403ed" android:valueTo="@dimen/CreatedbyRmt_res_0x7f070107" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="?attr/CreatedbyRmt_res_0x7f0403ea"/>
+    </item>
+    <item android:state_enabled="true" app:state_dragged="true">
+        <objectAnimator android:interpolator="?attr/CreatedbyRmt_res_0x7f0403f7" android:duration="?attr/CreatedbyRmt_res_0x7f0403ed" android:valueTo="@dimen/CreatedbyRmt_res_0x7f070105" android:valueType="floatType" android:propertyName="translationZ" android:startDelay="?attr/CreatedbyRmt_res_0x7f0403ea"/>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:interpolator="?attr/CreatedbyRmt_res_0x7f0403f7" android:duration="?attr/CreatedbyRmt_res_0x7f0403e7" android:valueTo="0dp" android:valueType="floatType" android:propertyName="translationZ"/>
+        </set>
+    </item>
+    <item>
+        <objectAnimator android:duration="0" android:valueTo="0dp" android:valueType="floatType" android:propertyName="translationZ"/>
+    </item>
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a00ac" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a051d">
+    <fragment android:name="com.taxsee.feature.services.services_list.ui.ServiceListFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a051d">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a03e9" app:destination="@+id/CreatedbyRmt_res_0x7f0a019e"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a03eb" app:destination="@+id/CreatedbyRmt_res_0x7f0a051c"/>
+    </fragment>
+    <fragment android:name="com.taxsee.feature.services.change_priority.ui.ChangePriorityFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a019e"/>
+    <fragment android:name="com.taxsee.feature.services.service_detail.ui.ServiceFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a051c">
+        <argument android:name="service_id" app:argType="long"/>
+    </fragment>
+</navigation>

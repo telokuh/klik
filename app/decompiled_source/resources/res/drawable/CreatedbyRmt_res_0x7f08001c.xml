@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:interpolator="?attr/CreatedbyRmt_res_0x7f0403f9" android:duration="@integer/CreatedbyRmt_res_0x7f0b001f" android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="fillAlpha"/>

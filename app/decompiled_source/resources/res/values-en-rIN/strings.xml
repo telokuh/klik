@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CreatedbyRmt_res_0x7f1401e1">Navigate up</string>
+    <string name="CreatedbyRmt_res_0x7f1401e3">Done</string>
+    <string name="CreatedbyRmt_res_0x7f1401e6">OFF</string>
+    <string name="CreatedbyRmt_res_0x7f1401e7">ON</string>
+    <string name="CreatedbyRmt_res_0x7f1401e8">Alt+</string>
+    <string name="CreatedbyRmt_res_0x7f1401e9">Ctrl+</string>
+    <string name="CreatedbyRmt_res_0x7f1401ea">delete</string>
+    <string name="CreatedbyRmt_res_0x7f1401eb">enter</string>
+    <string name="CreatedbyRmt_res_0x7f1401ec">Function+</string>
+    <string name="CreatedbyRmt_res_0x7f1401ed">Meta+</string>
+    <string name="CreatedbyRmt_res_0x7f1401ee">Shift+</string>
+    <string name="CreatedbyRmt_res_0x7f1401ef">space</string>
+    <string name="CreatedbyRmt_res_0x7f1401f0">Sym+</string>
+    <string name="CreatedbyRmt_res_0x7f1401f1">Menu+</string>
+    <string name="CreatedbyRmt_res_0x7f1401f2">Search…</string>
+    <string name="CreatedbyRmt_res_0x7f1401f3">Clear query</string>
+    <string name="CreatedbyRmt_res_0x7f1401f5">Search</string>
+    <string name="CreatedbyRmt_res_0x7f1401f6">Submit query</string>
+    <string name="CreatedbyRmt_res_0x7f1401f7">Voice search</string>
+    <string name="CreatedbyRmt_res_0x7f1401fa">Collapse</string>
+    <string name="CreatedbyRmt_res_0x7f140257">Answer</string>
+    <string name="CreatedbyRmt_res_0x7f140258">Video</string>
+    <string name="CreatedbyRmt_res_0x7f140259">Decline</string>
+    <string name="CreatedbyRmt_res_0x7f14025a">Hang up</string>
+    <string name="CreatedbyRmt_res_0x7f14025b">Incoming call</string>
+    <string name="CreatedbyRmt_res_0x7f14025c">On-going call</string>
+    <string name="CreatedbyRmt_res_0x7f14025d">Screening an incoming call</string>
+    <string name="CreatedbyRmt_res_0x7f1403ea">Navigate up</string>
+    <string name="CreatedbyRmt_res_0x7f1403eb">Open navigation drawer</string>
+    <string name="CreatedbyRmt_res_0x7f1403fa">Not set</string>
+    <string name="CreatedbyRmt_res_0x7f140417">\'%1$s\' copied to clipboard.</string>
+    <string name="CreatedbyRmt_res_0x7f14044e">Search</string>
+    <string name="CreatedbyRmt_res_0x7f1404e1">999+</string>
+    <string name="CreatedbyRmt_res_0x7f1404e7">%1$s, %2$s</string>
+    <string name="CreatedbyRmt_res_0x7f14050e">OFF</string>
+    <string name="CreatedbyRmt_res_0x7f14050f">ON</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="other">លេខកូដមិនត្រឹមត្រូវ។ នៅសល់ការព្យាយាម %d ។</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="other">នៅសល់ការព្យាយាម %d ។</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="other">កក់ការធ្វើដំណើរនឹងត្រូវបានលុបចោលក្នុងរយៈពេល %1$s វិនាទី</item>
+    </plurals>
+</resources>

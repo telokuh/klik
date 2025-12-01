@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a00ab" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a042a">
+    <argument android:name="order_id" app:argType="long"/>
+    <argument android:name="zone_id" app:argType="string" app:nullable="true"/>
+    <argument android:name="source" app:argType="string"/>
+    <argument android:name="offerOrderSource" app:argType="string"/>
+    <argument android:name="isFromSearch" app:argType="boolean"/>
+    <argument android:name="supportCancelRequest" app:argType="boolean"/>
+    <argument android:name="needRequest" app:argType="boolean"/>
+    <fragment android:name="com.taxsee.driver.feature.order.detail.OrderDetailMapFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a042a">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a005f" app:destination="@+id/CreatedbyRmt_res_0x7f0a0429"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0060" app:destination="@+id/CreatedbyRmt_res_0x7f0a06af"/>
+    </fragment>
+    <dialog android:name="com.taxsee.driver.feature.order.detail.actions.OrderDetailsActionsFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0429">
+        <argument android:name="order_id" app:argType="long"/>
+    </dialog>
+    <dialog android:name="com.feature.feedback.types.FeedbackTypesFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a06af">
+        <argument android:name="entry" app:argType="com.taxsee.shared.model.feedbacks.FeedbackEntry"/>
+        <argument android:name="baseId" android:defaultValue="0L" app:argType="long"/>
+        <argument android:name="organizationId" app:argType="long"/>
+        <argument android:name="organizationName" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a009b" app:destination="@+id/CreatedbyRmt_res_0x7f0a01ec"/>
+    </dialog>
+    <fragment android:name="com.feature.feedback.create.CreateFeedbackFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a01ec">
+        <argument android:name="entry" app:argType="com.taxsee.shared.model.feedbacks.FeedbackEntry"/>
+        <argument android:name="baseId" android:defaultValue="0L" app:argType="long"/>
+        <argument android:name="organizationId" app:argType="long"/>
+        <argument android:name="organizationName" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="typeId" app:argType="long"/>
+        <argument android:name="canAttachOrder" android:defaultValue="true" app:argType="boolean"/>
+        <argument android:name="feedbackName" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="message" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <argument android:name="warning" android:defaultValue="@null" app:argType="string" app:nullable="true"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a004d" app:destination="@+id/CreatedbyRmt_res_0x7f0a042d"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a004c" app:destination="@+id/CreatedbyRmt_res_0x7f0a01a4" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a01ec" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:name="com.feature.feedback.chat.FeedbackChatFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a01a4">
+        <argument android:name="feedbackId" app:argType="long"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0046" app:destination="@+id/CreatedbyRmt_res_0x7f0a042d"/>
+    </fragment>
+    <fragment android:name="com.feature.feedback.orders.FeedbackOrdersFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a042d">
+        <argument android:name="organizationId" app:argType="long"/>
+    </fragment>
+</navigation>

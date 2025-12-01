@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:height="@dimen/CreatedbyRmt_res_0x7f070334" android:width="@dimen/CreatedbyRmt_res_0x7f070334">
+    <item android:state_pressed="true" android:id="@+id/CreatedbyRmt_res_0x7f0a046e" android:drawable="@drawable/CreatedbyRmt_res_0x7f08024b"/>
+    <item android:state_checked="true" android:id="@+id/CreatedbyRmt_res_0x7f0a01a8" android:drawable="@drawable/CreatedbyRmt_res_0x7f080248"/>
+    <item android:id="@+id/CreatedbyRmt_res_0x7f0a0727" android:drawable="@drawable/CreatedbyRmt_res_0x7f080248" app:state_with_icon="true"/>
+    <item android:id="@+id/CreatedbyRmt_res_0x7f0a06b2" android:drawable="@drawable/CreatedbyRmt_res_0x7f08024e"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f08024c" android:toId="@+id/CreatedbyRmt_res_0x7f0a01a8" android:fromId="@+id/CreatedbyRmt_res_0x7f0a046e"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f08024c" android:toId="@+id/CreatedbyRmt_res_0x7f0a0727" android:fromId="@+id/CreatedbyRmt_res_0x7f0a046e"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f08024d" android:toId="@+id/CreatedbyRmt_res_0x7f0a06b2" android:fromId="@+id/CreatedbyRmt_res_0x7f0a046e"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f080249" android:toId="@+id/CreatedbyRmt_res_0x7f0a046e" android:fromId="@+id/CreatedbyRmt_res_0x7f0a01a8"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f08024a" android:toId="@+id/CreatedbyRmt_res_0x7f0a06b2" android:fromId="@+id/CreatedbyRmt_res_0x7f0a01a8"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f080249" android:toId="@+id/CreatedbyRmt_res_0x7f0a046e" android:fromId="@+id/CreatedbyRmt_res_0x7f0a0727"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f080250" android:toId="@+id/CreatedbyRmt_res_0x7f0a046e" android:fromId="@+id/CreatedbyRmt_res_0x7f0a06b2"/>
+    <transition android:drawable="@drawable/CreatedbyRmt_res_0x7f08024f" android:toId="@+id/CreatedbyRmt_res_0x7f0a01a8" android:fromId="@+id/CreatedbyRmt_res_0x7f0a06b2"/>
+</animated-selector>

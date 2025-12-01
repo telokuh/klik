@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a00c7" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a055c">
+    <fragment android:name="com.taxsee.feature.announcements.StartFlowFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a055c">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a008b" app:destination="@+id/CreatedbyRmt_res_0x7f0a042f" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a00c7" app:popUpToInclusive="true"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0089" app:destination="@+id/CreatedbyRmt_res_0x7f0a00c6" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a00c7" app:popUpToInclusive="true"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0088" app:destination="@+id/CreatedbyRmt_res_0x7f0a00c5" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a00c7" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:name="com.taxsee.feature.announcements.organizations.ui.AnnouncementsOrganizationsFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a042f">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0074" app:destination="@+id/CreatedbyRmt_res_0x7f0a00c6"/>
+    </fragment>
+    <fragment android:name="com.taxsee.feature.announcements.list.ui.AnnouncementsFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a00c6">
+        <argument android:name="organizationId" app:argType="long" app:nullable="false"/>
+        <argument android:name="organizationName" app:argType="string" app:nullable="false"/>
+        <argument android:name="isOneOrganization" android:defaultValue="false" app:argType="boolean"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a003c" app:destination="@+id/CreatedbyRmt_res_0x7f0a00c5"/>
+    </fragment>
+    <fragment android:name="com.taxsee.feature.announcements.details.ui.AnnouncementDetailsFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a00c5">
+        <argument android:name="organizationId" app:argType="long" app:nullable="false"/>
+        <argument android:name="announcementId" app:argType="long"/>
+        <argument android:name="announcementTitle" app:argType="string" app:nullable="false"/>
+    </fragment>
+</navigation>

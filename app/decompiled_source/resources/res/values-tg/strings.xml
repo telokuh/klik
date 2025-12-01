@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CreatedbyRmt_res_0x7f1401b4">Версияи пештара%s дастрас аст</string>
+    <string name="CreatedbyRmt_res_0x7f1401b5">Версияи пештара%s барои насбкунӣ омода аст</string>
+    <string name="CreatedbyRmt_res_0x7f1401b6">Файли фарокашидашуда аз кор бароварда шуд</string>
+    <string name="CreatedbyRmt_res_0x7f1401b7">Версияи пештара%s фаро хонда шуда истодааст</string>
+    <string name="CreatedbyRmt_res_0x7f1401b8">Навкунӣ фаро хонда шуда истодааст%s</string>
+    <string name="CreatedbyRmt_res_0x7f1401b9">Барои фарохонии версияи пештара%s имкон нашуд</string>
+    <string name="CreatedbyRmt_res_0x7f1401ba">Ба фарохонии навкунӣ%s имкон нашуд</string>
+    <string name="CreatedbyRmt_res_0x7f1401bb">Барои давом додани фарохонии версияи пештара%s имкон нашуд</string>
+    <string name="CreatedbyRmt_res_0x7f1401bc">Ба давом додани фарохонии навкуниҳо%s имкон нашуд</string>
+    <string name="CreatedbyRmt_res_0x7f1401bd">Барои фарохонии версияи пештара%s ҷойи кофӣ нест</string>
+    <string name="CreatedbyRmt_res_0x7f1401be">Барои фарохонии навкуниҳо%s ҷойи кофӣ нест</string>
+    <string name="CreatedbyRmt_res_0x7f1401c1">Фарохонии версияи пештара%s манъ карда шудааст</string>
+    <string name="CreatedbyRmt_res_0x7f1401c2">Фарохонии навкуниҳо%s манъ карда шудааст</string>
+    <string name="CreatedbyRmt_res_0x7f1401c3">Навкунӣ%s дастрас мебошад</string>
+    <string name="CreatedbyRmt_res_0x7f1401c4">Навсозӣ%s барои насб тайёр</string>
+</resources>

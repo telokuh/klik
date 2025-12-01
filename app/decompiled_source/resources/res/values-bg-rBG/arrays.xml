@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="CreatedbyRmt_res_0x7f030000">
+        <item>Още %d адрес</item>
+        <item>Още %d адреса</item>
+        <item>Още %d адреса</item>
+    </array>
+    <array name="CreatedbyRmt_res_0x7f030002">
+        <item>Ян</item>
+        <item>Фев</item>
+        <item>Мар</item>
+        <item>Апр</item>
+        <item>Май</item>
+        <item>Юни</item>
+        <item>Юли</item>
+        <item>Авг</item>
+        <item>Сеп</item>
+        <item>Окт</item>
+        <item>Ное</item>
+        <item>Дек</item>
+    </array>
+</resources>

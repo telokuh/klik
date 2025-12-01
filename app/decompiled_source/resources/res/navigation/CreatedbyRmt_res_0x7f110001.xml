@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a00a3" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a0555">
+    <fragment android:name="com.feature.kaspro.activatebase.ActivateKasproFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0555">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a008a" app:destination="@+id/CreatedbyRmt_res_0x7f0a0241"/>
+    </fragment>
+    <fragment android:name="com.feature.kaspro.activatebase.EnterKasproCodeFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0241">
+        <argument android:name="phone" app:argType="string"/>
+        <argument android:name="timeout" app:argType="integer"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0047" app:destination="@+id/CreatedbyRmt_res_0x7f0a0242"/>
+    </fragment>
+    <fragment android:name="com.feature.kaspro.activatebase.KasproDriverInfoFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0242">
+        <argument android:name="phone" app:argType="string"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a005b" app:destination="@+id/CreatedbyRmt_res_0x7f0a009f" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a0555" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:name="com.feature.kaspro.activatebase.ActivatedKasproFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a009f"/>
+</navigation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="CreatedbyRmt_res_0x7f120000">
+        <item quantity="one">Le code est incorrect. Il vous reste %d tentatives pour pouvoir se connecter.</item>
+        <item quantity="other">Le code est incorrect. Il vous reste %d tentatives pour pouvoir se connecter.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120001">
+        <item quantity="one">Il vous reste %d tentative pour pouvoir se connecter.</item>
+        <item quantity="other">Il vous reste %d tentative pour pouvoir se connecter.</item>
+    </plurals>
+    <plurals name="CreatedbyRmt_res_0x7f120003">
+        <item quantity="one">La commande sera annulée dans %1$s second</item>
+        <item quantity="other">La commande sera annulée dans %1$s seconds</item>
+    </plurals>
+</resources>

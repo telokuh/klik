@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/CreatedbyRmt_res_0x7f0a0512" app:startDestination="@+id/CreatedbyRmt_res_0x7f0a0517">
+    <fragment android:name="com.taxsee.screen.self_employment.loading.SelfEmploymentLoadingFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0517"/>
+    <fragment android:name="com.taxsee.screen.self_employment.enter_inn.SelfEmploymentEnterInnFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0516">
+        <argument android:name="isRequestCancelled" android:defaultValue="false" app:argType="boolean"/>
+        <argument android:name="isInvalidInn" android:defaultValue="false" app:argType="boolean"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0096" app:destination="@+id/CreatedbyRmt_res_0x7f0a0515"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0099" app:destination="@+id/CreatedbyRmt_res_0x7f0a051a" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a0512" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:name="com.taxsee.screen.self_employment.register.SelfEmploymentRegisterFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0519">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0096" app:destination="@+id/CreatedbyRmt_res_0x7f0a0515"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0099" app:destination="@+id/CreatedbyRmt_res_0x7f0a051a" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a0512" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:name="com.taxsee.screen.self_employment.accept_request.SelfEmploymentAcceptRequestFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0513">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0096" app:destination="@+id/CreatedbyRmt_res_0x7f0a0515"/>
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0097" app:destination="@+id/CreatedbyRmt_res_0x7f0a0516"/>
+    </fragment>
+    <fragment android:name="com.taxsee.screen.self_employment.connected.SelfEmploymentConnectedFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0514">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0098" app:destination="@+id/CreatedbyRmt_res_0x7f0a0516" app:popUpTo="@+id/CreatedbyRmt_res_0x7f0a0512" app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment android:name="com.taxsee.screen.self_employment.wait.SelfEmploymentWaitFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a051a"/>
+    <fragment android:name="com.taxsee.screen.self_employment.details.SelfEmploymentDetailsFragment" android:id="@+id/CreatedbyRmt_res_0x7f0a0515">
+        <action android:id="@+id/CreatedbyRmt_res_0x7f0a0098" app:destination="@+id/CreatedbyRmt_res_0x7f0a0516"/>
+    </fragment>
+</navigation>
