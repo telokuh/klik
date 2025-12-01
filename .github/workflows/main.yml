@@ -66,7 +66,7 @@ jobs:
           echo "-----------------------------------"
           
           # Asumsi Jalur Biner Jadx (yang mungkin salah)
-          JADX_BIN_PATH="jadx-$JADX_VERSION/bin/jadx"
+          JADX_BIN_PATH="./bin/jadx"
           
           # PERIKSA: Kita akan mencoba chmod, tapi jika gagal, kita akan tahu mengapa.
           echo "Mencoba memberikan izin eksekusi ke $JADX_BIN_PATH"
@@ -80,7 +80,7 @@ jobs:
           APK_FILE=${{ steps.apk_path.outputs.APK_FILE }}
           # Menentukan folder output seperti yang Anda minta
           OUTPUT_DIR="app/decompiled_source" 
-          JADX_BIN_PATH="./jadx-$JADX_VERSION/bin/jadx"
+          JADX_BIN_PATH="./bin/jadx"
           
           # Membersihkan folder lama dan membuat yang baru
           rm -rf $OUTPUT_DIR
