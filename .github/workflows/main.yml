@@ -1,0 +1,93 @@
+name: Decompile APK with JADX
+# Nama workflow untuk dekompilasi menggunakan Jadx
+
+on:
+  push:
+    paths:
+      - 'path/to/your/app.apk' # Ganti dengan jalur sebenarnya ke file APK Anda
+  workflow_dispatch:
+    inputs:
+      apk_path:
+        description: 'Jalur ke file APK yang akan didekompilasi (misal: build/app.apk)'
+        required: true
+        default: 'app.apk' # Nilai default, ganti jika perlu
+
+jobs:
+  decompile:
+    runs-on: ubuntu-latest # Menggunakan runner Linux
+
+    steps:
+      - name: Checkout Code
+        # Mendapatkan kode dari repositori
+        uses: actions/checkout@v4
+
+      - name: Set APK Path Variable
+        # Mendapatkan jalur APK dari input, atau menggunakan nilai default dari push
+        id: apk_path
+        run: |
+          APK_FILE=${{ github.event.inputs.apk_path || 'path/to/your/app.apk' }}
+          echo "APK_FILE=$APK_FILE" >> $GITHUB_OUTPUT
+          
+      - name: Check if APK file exists
+        # Memastikan file APK ada
+        run: |
+          if [ ! -f ${{ steps.apk_path.outputs.APK_FILE }} ]; then
+            echo "Error: File APK tidak ditemukan di ${{ steps.apk_path.outputs.APK_FILE }}"
+            exit 1
+          fi
+
+      - name: Set up Java
+        # Jadx membutuhkan Java (minimal versi 8)
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+
+      - name: Install JADX
+        # Mengunduh dan menyiapkan Jadx biner
+        run: |
+          JADX_VERSION="1.4.7" # Ganti dengan versi terbaru jika perlu
+          JADX_ZIP="jadx-$JADX_VERSION.zip"
+          JADX_URL="https://github.com/skylot/jadx/releases/download/v$JADX_VERSION/$JADX_ZIP"
+          
+          echo "Mengunduh Jadx versi $JADX_VERSION..."
+          wget $JADX_URL -O $JADX_ZIP
+          
+          echo "Mengekstrak Jadx..."
+          unzip $JADX_ZIP
+          
+          # Jadx diekstrak ke folder jadx-$JADX_VERSION
+          echo "Jadx berhasil diinstal."
+
+      - name: Run Decompilation with JADX
+        # Menjalankan perintah dekompilasi Jadx
+        run: |
+          JADX_VERSION="1.4.7"
+          APK_FILE=${{ steps.apk_path.outputs.APK_FILE }}
+          OUTPUT_DIR="jadx_decompiled_output"
+          JADX_BIN_PATH="./jadx-$JADX_VERSION/bin/jadx"
+          
+          echo "Memulai dekompilasi $APK_FILE ke $OUTPUT_DIR menggunakan Jadx..."
+          
+          # Perintah decompile: jadx -d <output_dir> <input.apk>
+          # --show-bad-code digunakan untuk menyertakan komentar di tempat Jadx tidak yakin
+          $JADX_BIN_PATH -d "$OUTPUT_DIR" --show-bad-code "$APK_FILE"
+          
+          if [ $? -eq 0 ]; then
+            echo "Dekomilasi berhasil!"
+          else
+            echo "Dekomilasi gagal."
+            exit 1
+          fi
+
+      - name: Zip Decompiled Output
+        # Mengompres hasil dekompilasi
+        run: |
+          zip -r jadx_decompiled_output.zip $OUTPUT_DIR
+
+      - name: Upload Decompiled Artifact
+        # Mengunggah file zip hasil dekompilasi
+        uses: actions/upload-artifact@v4
+        with:
+          name: jadx-decompiled-source-code
+          path: jadx_decompiled_output.zip
