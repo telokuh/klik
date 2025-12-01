@@ -1,44 +1,47 @@
 name: Decompile APK and Commit to Repo
-# Nama workflow yang diperbarui
+# Workflow ini hanya berjalan saat dipicu secara manual
 
 on:
   workflow_dispatch:
-    # Hanya menjalankan secara manual untuk menghindari loop trigger dan mengontrol file APK
     inputs:
       apk_path:
         description: 'Jalur ke file APK yang akan didekompilasi (Contoh: build/app.apk)'
         required: true
-        default: 'b-debug.apk' # Ganti default jika perlu
+        default: 'app.apk' # Ganti default jika perlu
 
 jobs:
   decompile_and_commit:
     runs-on: ubuntu-latest
     
-    # Berikan izin tulis (write) pada token GITHUB_TOKEN agar bisa melakukan push
+    # Memberikan izin tulis (write) pada token GITHUB_TOKEN untuk melakukan push
     permissions:
       contents: write 
 
     steps:
       - name: Checkout Code
+        # Mengambil kode dari repo
         uses: actions/checkout@v4
-        # Penting: Menggunakan token penuh untuk otentikasi agar bisa push kembali
         with:
+          # Penting: Menggunakan token untuk otentikasi agar bisa push kembali
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set APK Path Variable
+        # Mendapatkan jalur APK dari input manual
         id: apk_path
         run: |
-          APK_FILE=${{ github.event.inputs.apk_path || 'app.apk' }} # Mengambil dari input manual
+          APK_FILE=${{ github.event.inputs.apk_path || 'app.apk' }}
           echo "APK_FILE=$APK_FILE" >> $GITHUB_OUTPUT
           
       - name: Check if APK file exists
+        # Memastikan file APK ada sebelum memulai proses
         run: |
           if [ ! -f ${{ steps.apk_path.outputs.APK_FILE }} ]; then
-            echo "Error: File APK tidak ditemukan di ${{ steps.apk_path.outputs.APK_FILE }}. Pastikan Anda memberikan path yang benar saat memicu workflow secara manual."
+            echo "Error: File APK tidak ditemukan di ${{ steps.apk_path.outputs.APK_FILE }}. Mohon periksa path yang Anda masukkan saat memicu workflow."
             exit 1
           fi
 
       - name: Set up Java
+        # Jadx membutuhkan Java (minimal versi 8)
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
@@ -47,34 +50,41 @@ jobs:
       - name: Install JADX
         # Mengunduh dan menyiapkan Jadx biner
         run: |
-          JADX_VERSION="1.4.7" 
+          JADX_VERSION="1.4.7" # Sesuaikan versi jika perlu
           JADX_ZIP="jadx-$JADX_VERSION.zip"
           JADX_URL="https://github.com/skylot/jadx/releases/download/v$JADX_VERSION/$JADX_ZIP"
           
           echo "Mengunduh Jadx versi $JADX_VERSION..."
           wget $JADX_URL -O $JADX_ZIP
           
-          echo "Mengekstrak Jadx..."
-          # Revisi: Tambahkan opsi -o (overwrite) agar non-interaktif
+          echo "Mengekstrak Jadx (non-interaktif)..."
+          # PERBAIKAN 1: Menambahkan opsi -o (overwrite) untuk non-interaktif
           unzip -o $JADX_ZIP
           
-          echo "Jadx berhasil diinstal."
+          # PERBAIKAN 2: Menambahkan izin eksekusi ke biner Jadx untuk menghindari Exit Code 127
+          JADX_BIN_PATH="jadx-$JADX_VERSION/bin/jadx"
+          chmod +x $JADX_BIN_PATH
+          
+          echo "Verifikasi file biner Jadx dan izinnya:"
+          ls -l $JADX_BIN_PATH
+          
+          echo "Jadx berhasil diinstal dan diatur izinnya."
 
       - name: Run Decompilation with JADX
         run: |
           JADX_VERSION="1.4.7"
           APK_FILE=${{ steps.apk_path.outputs.APK_FILE }}
-          # Output folder di dalam root repo
+          # Menentukan folder output seperti yang Anda minta
           OUTPUT_DIR="app/decompiled_source" 
           JADX_BIN_PATH="./jadx-$JADX_VERSION/bin/jadx"
           
-          # Hapus folder lama jika ada (agar bersih)
+          # Membersihkan folder lama dan membuat yang baru
           rm -rf $OUTPUT_DIR
           mkdir -p $OUTPUT_DIR
           
           echo "Memulai dekompilasi $APK_FILE ke $OUTPUT_DIR..."
           
-          # Perintah decompile: jadx -d <output_dir> <input.apk>
+          # Eksekusi Jadx
           $JADX_BIN_PATH -d "$OUTPUT_DIR" --show-bad-code "$APK_FILE"
           
           if [ $? -eq 0 ]; then
@@ -88,11 +98,9 @@ jobs:
         # Menggunakan action untuk mengotomatisasi commit dan push
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          # Hanya commit file yang ada di dalam folder 'app/'
+          # Membatasi commit hanya pada file yang ada di dalam folder 'app/'
           file_pattern: 'app/**' 
-          # Pesan commit
           commit_message: 'Automated: Decompiled APK source code updated in app/decompiled_source'
-          # Menggunakan token GITHUB_TOKEN bawaan
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
